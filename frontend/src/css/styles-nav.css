@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --font-primary: 'Nunito', sans-serif;
+    --color-primary: #024287;
+    --color-secondary: #012C5A;    
+    --color-tertiary: #0B7FFB;
+    --color-button-cta: #F6B432;
+    --color-button-cta-hover: #F6B432;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+.logo{
+   
+    height: 80px;
+    width: 80px;
+    margin-left: 1rem;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-primary);
+    height: 90px;
+}
+ .menu {
+    list-style: none;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-weight: 400;
+    width: 90%;
+    gap: .5rem;
+}
+
+  .menu-item {
+    position: relative;
+    padding-right: 10px
+  }
+  
+  .menu-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    transition: text-shadow 0.3s ease-in-out;
+    width: auto;
+
+  }
+  
+  .menu-link:hover {
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+  }
+  
+  .arrow-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-item.hovering .arrow-icon {
+    transform: rotate(90deg);
+  }
+  
+  /* Submenú base */
+  .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--color-primary);
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 100;
+    padding-top: 24px;
+    min-width: max-content;
+    z-index: 100;
+  }
+  
+  /* Submenú visible */
+  .menu-item.hovering .submenu {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+  
+  .submenu-item a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submenu-item a:hover {
+    background-color: var(--color-secondary);
+  }
+  .menu-link,.submenu-item a {
+  white-space: nowrap;
+}

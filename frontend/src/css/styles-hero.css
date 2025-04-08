@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --font-primary: 'Nunito', sans-serif;
+    --color-primary: #024287;
+    --color-secondary: #012C5A;    
+    --color-tertiary: #0B7FFB;
+    --color-button-cta: #F6B432;
+    --color-button-cta-hover: #BD8108;
+    --color-primary-200:#0B7FFB;
+    --color-button-cta-hover-200:#FBDA98;
+    --color-background: #FFFFFB;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    height: calc(100dvh - 90px);
+    background-image:url("../../public/assets/images/fondo-hero.png");
+    background-size: cover;
+    background-position: center 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.hero-content {
+    background-color: rgba(26, 18, 18, 0.507);
+    backdrop-filter: blur(10px);                
+    -webkit-backdrop-filter: blur(10px);        
+    padding: 2rem;
+    border-radius: 16px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.301);
+    width: 40%;
+    max-width: 600px;
+    min-height: 50%;
+    max-height: max-content;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    font-family: var(--font-primary);
+}
+.hero-eslogan{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.hero-description{
+    font-size: 1.2rem;
+    text-align: start;
+    font-weight: 400;
+    max-width: 70%;
+}
+.hero-button-cta{
+    background-color: var(--color-button-cta);
+    color: var(--color-primary);
+    padding: 1rem 2rem;
+    border-radius: 32px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+    
+}
+.hero-button-cta:hover{
+    background-color: var(--color-button-cta-hover-200);
+    color: var(--color-primary-200)
+}
+
+ 
