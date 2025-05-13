@@ -1,0 +1,1123 @@
+{
+    "blogs":[
+        {
+            "id": "",
+            "title": "¿Por qué es bueno utilizar LSP en los procesos de selección?",
+            "type":"Articulo de facilitadores",
+            "author":{
+                "name":"Fanny López Amado",
+                "profession":"Técnico Organización y Talento",
+                "area":"Area selección de personal.Comunicacion Interna",
+                "role":"Facilitador certificado de la metodología LEGO® SERIOUS PLAY®"
+            },
+            "dateOfPublication":"19-10-2024",
+            "fecha":"2025-05-09",
+            "imageCard":"/frontend/public/assets/images/blogs/cards/Blog1-card.png",
+            "references":[
+                {
+                    "title":"Flat. (2021, 12 abril). Descubre la metodología LEGO SERIOUS PLAY. ESERP Digital Business & Law School",
+                    "link":"https://es.eserp.com/articulos/lego-serious-play/"
+                },
+                {
+                    "title":"Solórzano, P. (2023, 25 octubre). Casos de éxito de Lego Serious Play - Pedro Solorzano. Pedro Solorzano.",
+                    "link":"https://www.pedrosolorzano.com/casos-de-exito-de-lego-serious-play/"
+                },
+                {
+                    "title":"Camacho, F. (2024, 18 marzo). ¿Por qué usar Lego® Serious Play®? Interactius.",
+                    "link":"https://interactius.com/workshops/por-que-usar-lego-serious-play/"
+
+                }
+            ],
+            "content":[
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/banner-principal.png",
+                    "alt":"Banner del articulo"
+                },
+                {   
+                    "type":"heading",
+                    "text":"Como recruiter, eres el primer contacto que los candidatos tienen con tu organización"    
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En un mundo en el que la globalidad nos ha impuesto la construcción de la MARCA como ventaja competitiva frente a los competidores y en el que el mantra “todo comunica o todo vende” guía el grueso de nuestras actuaciones, el reclutador se erige en una posición de abanderado de la empresa. Con su “Know How” será la cara visible de toda una aventura que comenzará para muchas personas que se encuentren en el trabajo de buscar trabajo."
+                },
+                {
+                    "type":"subtitle",
+                    "text":"¿Y si participar en un proceso de selección en tu empresa fuera un valor añadido frente a otras?"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Según datos de la consultora Deloitte, el 56% de las empresas ya utilizan inteligencia artificial y análisis de datos en sus procesos de selección. La implementación de herramientas como software de reclutamiento, chatbots ...puede agilizar el proceso, reducir tiempos de espera y mejorar la eficiencia en la gestión de candidatos.\nSin embargo, después de esta primera fase del proceso de selección, en la que, el reclutador no tiene ni por qué haber interactuado con el candidato, el Dpto de Personas agenda una entrevista con el candidato, toma de contacto basada en la confianza que hace que:"
+                },
+                {
+                    "type": "list",
+                    "style": "check",
+                    "items": [
+                        "Reduce la ansiedad del candidato.",
+                        "Fomenta una comunicación más abierta y honesta.",
+                        "Permite una evaluación más precisa de las habilidades.",
+                        "Mejora la experiencia del candidato."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En resumen, combinar una experiencia centrada en el candidato con la tecnología adecuada puede generar beneficios tanto para la empresa como para los futuros empleados."
+                },
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-contentImage1.png"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Y es en este punto en donde la metodología de LEGO® SERIOUS PLAY® nos puede ayudar a “humanizar” el proceso."
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "🎨 Aumenta la creatividad: Al utilizar piezas de Lego, los candidatos pueden expresar sus ideas y pensamientos de manera mucho más creativa y visual, lo que puede revelar habilidades y perspectivas que no se obtendrían en una entrevista tradicional.",
+                        "📢 Mejora de la comunicación: LSP promueve la comunicación abierta y efectiva. Los participantes al explicar sus construcciones, entrenan habilidades de presentación y argumentación.",
+                        "🌱 Soft skills: Permite observar cómo los candidatos trabajan en equipo, resuelven problemas y manejan la presión. Permite observar cómo los candidatos interactúan y colaboran con otros, esencial en entornos laborales.",
+                        "🚀 Al ser un enfoque más lúdico, los candidatos pueden sentirse más relajados y cómodos, lo que puede llevar a una mejor representación de sus verdaderas habilidades y personalidad. ¡Construimos nuestros pensamientos con las manos!",
+                        "💡 La construcción con Lego invita a la reflexión profunda sobre las experiencias y habilidades de los candidatos, lo que puede llevar a descubrimientos muy valiosos tanto para ellos como para los evaluadores."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"La metodología Lego Serious Play no solo hace que el proceso de selección sea más dinámico y divertido “Jugando Serio”, sino que también proporciona una visión más completa de los candidatos."
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Quienes ya lo utilizaron en sus procesos vinculados a PERSONAS apuestan por la metodología y es que Lego puede encajar desde:"
+                },
+                {
+                    "type":"list",
+                    "items":[
+                        "1. Grupo Santander utilizó la metodología para realizar talleres y sesiones de formación destinadas a mejorar la colaboración y el trabajo en equipo dentro de la organización. Como resultado, se implementaron cambios en la cultura corporativa y se logró una mayor participación y compromiso por parte de los empleados.",
+                        "2. La compañía tecnológica Google utilizó LEGO® SERIOUS PLAY® en un proyecto de transformación organizativa. Esto permitió identificar áreas de mejora y generar ideas innovadoras para el cambio.",
+                        "3. Coca-Cola utilizó LEGO® SERIOUS PLAY® como parte de su estrategia de transformación digital. Esto les permitió comprender mejor los desafíos y encontrar nuevas formas de llevar adelante la transformación digital de la empresa.",
+                        "4. La NASA utilizó LSP como herramienta de innovación y resolución de problemas. Esta metodología para generar ideas creativas y encontrar soluciones innovadoras que de otra manera podrían haber sido pasadas por alto.",
+                        "5. IKEA también ha utilizado LEGO® SERIOUS PLAY® en su proceso de transformación, lo que les permitió una mayor comprensión y alineación entre los empleados contribuyendo a la transformación de la organización.",
+                        "6. LEGO® Group ha utilizado su propia metodología para abordar desafíos internos y mejorar la colaboración.",
+                        "7. DHL recurrió a LEGO® SERIOUS PLAY® para fortalecer la colaboración y la comunicación entre sus equipos dispersos en diferentes ubicaciones mejorando así la eficiencia operativa y la satisfacción del cliente."
+                    ]
+                },
+                {
+                    "type":"subtitle",
+                    "text":"Y quién te puede guiar en este camino de implementación y desarrollo…"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"...Porque la  metodología LEGO® SERIOUS PLAY® no solo transforma la forma en que las empresas abordan la gestión de personas, sino que también fomenta un ambiente de colaboración, creatividad y comunicación abierta. Al permitir que los empleados expresen sus ideas y emociones a través de la construcción con bloques, se rompen las barreras tradicionales y se promueve un sentido de pertenencia y compromiso.\n Implementar esta metodología puede ser un cambio de juego para las organizaciones que buscan innovar en su cultura laboral y mejorar la dinámica de equipo. \n El éxito de una empresa radica en su gente, y al invertir en su desarrollo y bienestar, se sientan las bases para un futuro más sólido y sostenible.\n Así que, si estás buscando una forma de revitalizar la gestión de personas en tu empresa, considera darle una oportunidad a  la metodología LEGO® SERIOUS PLAY®. No solo estarás construyendo modelos físicos, sino también un entorno donde las ideas pueden florecer y las relaciones pueden fortalecerse. ¡Es hora de jugar en serio!"
+                }
+            ]
+        },
+        {
+            "id": "",
+            "title": "Metodología LSP: Una herramienta clave para tangibilizar ideas",
+            "type":"Articulo de facilitadores",
+            "author":{
+                "name":"Francisco Javier Gernade",
+                "profession":"Técnico Organización y Talento",
+                "area":"Area selección de personal.Comunicacion Interna",
+                "role":"Facilitador certificado de la metodología LEGO® SERIOUS PLAY®"
+            },
+            "dateOfPublication":"19-10-2024",
+            "fecha":"2025-05-06",
+            "imageCard":"/frontend/public/assets/images/blogs/cards/Blog2-card.png",
+            "references":[
+                {
+                    "title":"Flat. (2021, 12 abril). Descubre la metodología LEGO SERIOUS PLAY. ESERP Digital Business & Law School",
+                    "link":"https://es.eserp.com/articulos/lego-serious-play/"
+                },
+                {
+                    "title":"Solórzano, P. (2023, 25 octubre). Casos de éxito de Lego Serious Play - Pedro Solorzano. Pedro Solorzano.",
+                    "link":"https://www.pedrosolorzano.com/casos-de-exito-de-lego-serious-play/"
+                },
+                {
+                    "title":"Camacho, F. (2024, 18 marzo). ¿Por qué usar Lego® Serious Play®? Interactius.",
+                    "link":"https://interactius.com/workshops/por-que-usar-lego-serious-play/"
+
+                }
+            ],
+           "content":[
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-banner.png",
+                    "alt":"Banner del articulo"
+                },
+                {   
+                    "type":"heading",
+                    "text":"Como recruiter, eres el primer contacto que los candidatos tienen con tu organización"    
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En un mundo en el que la globalidad nos ha impuesto la construcción de la MARCA como ventaja competitiva frente a los competidores y en el que el mantra “todo comunica o todo vende” guía el grueso de nuestras actuaciones, el reclutador se erige en una posición de abanderado de la empresa. Con su “Know How” será la cara visible de toda una aventura que comenzará para muchas personas que se encuentren en el trabajo de buscar trabajo."
+                },
+                {
+                    "type":"subtitle",
+                    "text":"¿Y si participar en un proceso de selección en tu empresa fuera un valor añadido frente a otras?"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Según datos de la consultora Deloitte, el 56% de las empresas ya utilizan inteligencia artificial y análisis de datos en sus procesos de selección. La implementación de herramientas como software de reclutamiento, chatbots ...puede agilizar el proceso, reducir tiempos de espera y mejorar la eficiencia en la gestión de candidatos.\nSin embargo, después de esta primera fase del proceso de selección, en la que, el reclutador no tiene ni por qué haber interactuado con el candidato, el Dpto de Personas agenda una entrevista con el candidato, toma de contacto basada en la confianza que hace que:"
+                },
+                {
+                    "type": "list",
+                    "style": "check",
+                    "items": [
+                        "Reduce la ansiedad del candidato.",
+                        "Fomenta una comunicación más abierta y honesta.",
+                        "Permite una evaluación más precisa de las habilidades.",
+                        "Mejora la experiencia del candidato."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En resumen, combinar una experiencia centrada en el candidato con la tecnología adecuada puede generar beneficios tanto para la empresa como para los futuros empleados."
+                },
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-contentImage1.png"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Y es en este punto en donde la metodología de LEGO® SERIOUS PLAY® nos puede ayudar a “humanizar” el proceso."
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "🎨 Aumenta la creatividad: Al utilizar piezas de Lego, los candidatos pueden expresar sus ideas y pensamientos de manera mucho más creativa y visual, lo que puede revelar habilidades y perspectivas que no se obtendrían en una entrevista tradicional.",
+                        "📢 Mejora de la comunicación: LSP promueve la comunicación abierta y efectiva. Los participantes al explicar sus construcciones, entrenan habilidades de presentación y argumentación.",
+                        "🌱 Soft skills: Permite observar cómo los candidatos trabajan en equipo, resuelven problemas y manejan la presión. Permite observar cómo los candidatos interactúan y colaboran con otros, esencial en entornos laborales.",
+                        "🚀 Al ser un enfoque más lúdico, los candidatos pueden sentirse más relajados y cómodos, lo que puede llevar a una mejor representación de sus verdaderas habilidades y personalidad. ¡Construimos nuestros pensamientos con las manos!",
+                        "💡 La construcción con Lego invita a la reflexión profunda sobre las experiencias y habilidades de los candidatos, lo que puede llevar a descubrimientos muy valiosos tanto para ellos como para los evaluadores."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"La metodología Lego Serious Play no solo hace que el proceso de selección sea más dinámico y divertido “Jugando Serio”, sino que también proporciona una visión más completa de los candidatos."
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Quienes ya lo utilizaron en sus procesos vinculados a PERSONAS apuestan por la metodologíay es que Lego puede encajar desde:"
+                },
+                {
+                    "type":"list",
+                    "items":[
+                        "1. Grupo Santander utilizó la metodología para realizar talleres y sesiones de formación destinadas a mejorar la colaboración y el trabajo en equipo dentro de la organización. Como resultado, se implementaron cambios en la cultura corporativa y se logró una mayor participación y compromiso por parte de los empleados.",
+                        "2. La compañía tecnológica Google utilizó LEGO® SERIOUS PLAY® en un proyecto de transformación organizativa. Esto permitió identificar áreas de mejora y generar ideas innovadoras para el cambio.",
+                        "3. Coca-Cola utilizó LEGO® SERIOUS PLAY® como parte de su estrategia de transformación digital. Esto les permitió comprender mejor los desafíos y encontrar nuevas formas de llevar adelante la transformación digital de la empresa.",
+                        "4. La NASA utilizó LSP como herramienta de innovación y resolución de problemas. Esta metodología para generar ideas creativas y encontrar soluciones innovadoras que de otra manera podrían haber sido pasadas por alto.",
+                        "5. IKEA también ha utilizado LEGO® SERIOUS PLAY® en su proceso de transformación, lo que les permitió una mayor comprensión y alineación entre los empleados contribuyendo a la transformación de la organización.",
+                        "6. LEGO® Group ha utilizado su propia metodología para abordar desafíos internos y mejorar la colaboración.",
+                        "7. DHL recurrió a LEGO® SERIOUS PLAY® para fortalecer la colaboración y la comunicación entre sus equipos dispersos en diferentes ubicaciones mejorando así la eficiencia operativa y la satisfacción del cliente."
+                    ]
+                },
+                {
+                    "type":"subtitle",
+                    "text":"Y quién te puede guiar en este camino de implementación y desarrollo…"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"...Porque la  metodología LEGO® SERIOUS PLAY® no solo transforma la forma en que las empresas abordan la gestión de personas, sino que también fomenta un ambiente de colaboración, creatividad y comunicación abierta. Al permitir que los empleados expresen sus ideas y emociones a través de la construcción con bloques, se rompen las barreras tradicionales y se promueve un sentido de pertenencia y compromiso.\nImplementar esta metodología puede ser un cambio de juego para las organizaciones que buscan innovar en su cultura laboral y mejorar la dinámica de equipo. \nEl éxito de una empresa radica en su gente, y al invertir en su desarrollo y bienestar, se sientan las bases para un futuro más sólido y sostenible.\nAsí que, si estás buscando una forma de revitalizar la gestión de personas en tu empresa, considera darle una oportunidad a  la metodología LEGO® SERIOUS PLAY®. No solo estarás construyendo modelos físicos, sino también un entorno donde las ideas pueden florecer y las relaciones pueden fortalecerse. ¡Es hora de jugar en serio!"
+                }
+            ]
+        },
+        {
+            "id": "",
+            "title": "Maestros del juego: alcance y límites de un facilitador de LSP",
+            "type":"Articulo de facilitadores",
+            "author":{
+                "name":"Carmen De la Sierra",
+                "profession":"Técnico Organización y Talento",
+                "area":"Area selección de personal.Comunicacion Interna",
+                "role":"Facilitador certificado de la metodología LEGO® SERIOUS PLAY®"
+            },
+            "dateOfPublication":"19-10-2024",
+            "fecha":"2025-05-06",
+            "imageCard":"/frontend/public/assets/images/blogs/cards/img-placeholder-blog-card.png",
+            "references":[
+                {
+                    "title":"Flat. (2021, 12 abril). Descubre la metodología LEGO SERIOUS PLAY. ESERP Digital Business & Law School",
+                    "link":"https://es.eserp.com/articulos/lego-serious-play/"
+                },
+                {
+                    "title":"Solórzano, P. (2023, 25 octubre). Casos de éxito de Lego Serious Play - Pedro Solorzano. Pedro Solorzano.",
+                    "link":"https://www.pedrosolorzano.com/casos-de-exito-de-lego-serious-play/"
+                },
+                {
+                    "title":"Camacho, F. (2024, 18 marzo). ¿Por qué usar Lego® Serious Play®? Interactius.",
+                    "link":"https://interactius.com/workshops/por-que-usar-lego-serious-play/"
+
+                }
+            ],
+            "content":[
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-banner.png",
+                    "alt":"Banner del articulo"
+                },
+                {   
+                    "type":"heading",
+                    "text":"Como recruiter, eres el primer contacto que los candidatos tienen con tu organización"    
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En un mundo en el que la globalidad nos ha impuesto la construcción de la MARCA como ventaja competitiva frente a los competidores y en el que el mantra “todo comunica o todo vende” guía el grueso de nuestras actuaciones, el reclutador se erige en una posición de abanderado de la empresa. Con su “Know How” será la cara visible de toda una aventura que comenzará para muchas personas que se encuentren en el trabajo de buscar trabajo."
+                },
+                {
+                    "type":"subtitle",
+                    "text":"¿Y si participar en un proceso de selección en tu empresa fuera un valor añadido frente a otras?"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Según datos de la consultora Deloitte, el 56% de las empresas ya utilizan inteligencia artificial y análisis de datos en sus procesos de selección. La implementación de herramientas como software de reclutamiento, chatbots ...puede agilizar el proceso, reducir tiempos de espera y mejorar la eficiencia en la gestión de candidatos.\nSin embargo, después de esta primera fase del proceso de selección, en la que, el reclutador no tiene ni por qué haber interactuado con el candidato, el Dpto de Personas agenda una entrevista con el candidato, toma de contacto basada en la confianza que hace que:"
+                },
+                {
+                    "type": "list",
+                    "style": "check",
+                    "items": [
+                        "Reduce la ansiedad del candidato.",
+                        "Fomenta una comunicación más abierta y honesta.",
+                        "Permite una evaluación más precisa de las habilidades.",
+                        "Mejora la experiencia del candidato."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En resumen, combinar una experiencia centrada en el candidato con la tecnología adecuada puede generar beneficios tanto para la empresa como para los futuros empleados."
+                },
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-banner.png"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Y es en este punto en donde la metodología de LEGO® SERIOUS PLAY® nos puede ayudar a “humanizar” el proceso."
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "🎨 Aumenta la creatividad: Al utilizar piezas de Lego, los candidatos pueden expresar sus ideas y pensamientos de manera mucho más creativa y visual, lo que puede revelar habilidades y perspectivas que no se obtendrían en una entrevista tradicional.",
+                        "📢 Mejora de la comunicación: LSP promueve la comunicación abierta y efectiva. Los participantes al explicar sus construcciones, entrenan habilidades de presentación y argumentación.",
+                        "🌱 Soft skills: Permite observar cómo los candidatos trabajan en equipo, resuelven problemas y manejan la presión. Permite observar cómo los candidatos interactúan y colaboran con otros, esencial en entornos laborales.",
+                        "🚀 Al ser un enfoque más lúdico, los candidatos pueden sentirse más relajados y cómodos, lo que puede llevar a una mejor representación de sus verdaderas habilidades y personalidad. ¡Construimos nuestros pensamientos con las manos!",
+                        "💡 La construcción con Lego invita a la reflexión profunda sobre las experiencias y habilidades de los candidatos, lo que puede llevar a descubrimientos muy valiosos tanto para ellos como para los evaluadores."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"La metodología Lego Serious Play no solo hace que el proceso de selección sea más dinámico y divertido “Jugando Serio”, sino que también proporciona una visión más completa de los candidatos."
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Quienes ya lo utilizaron en sus procesos vinculados a PERSONAS apuestan por la metodologíay es que Lego puede encajar desde:"
+                },
+                {
+                    "type":"list",
+                    "items":[
+                        "1. Grupo Santander utilizó la metodología para realizar talleres y sesiones de formación destinadas a mejorar la colaboración y el trabajo en equipo dentro de la organización. Como resultado, se implementaron cambios en la cultura corporativa y se logró una mayor participación y compromiso por parte de los empleados.",
+                        "2. La compañía tecnológica Google utilizó LEGO® SERIOUS PLAY® en un proyecto de transformación organizativa. Esto permitió identificar áreas de mejora y generar ideas innovadoras para el cambio.",
+                        "3. Coca-Cola utilizó LEGO® SERIOUS PLAY® como parte de su estrategia de transformación digital. Esto les permitió comprender mejor los desafíos y encontrar nuevas formas de llevar adelante la transformación digital de la empresa.",
+                        "4. La NASA utilizó LSP como herramienta de innovación y resolución de problemas. Esta metodología para generar ideas creativas y encontrar soluciones innovadoras que de otra manera podrían haber sido pasadas por alto.",
+                        "5. IKEA también ha utilizado LEGO® SERIOUS PLAY® en su proceso de transformación, lo que les permitió una mayor comprensión y alineación entre los empleados contribuyendo a la transformación de la organización.",
+                        "6. LEGO® Group ha utilizado su propia metodología para abordar desafíos internos y mejorar la colaboración.",
+                        "7. DHL recurrió a LEGO® SERIOUS PLAY® para fortalecer la colaboración y la comunicación entre sus equipos dispersos en diferentes ubicaciones mejorando así la eficiencia operativa y la satisfacción del cliente."
+                    ]
+                },
+                {
+                    "type":"subtitle",
+                    "text":"Y quién te puede guiar en este camino de implementación y desarrollo…"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"...Porque la  metodología LEGO® SERIOUS PLAY® no solo transforma la forma en que las empresas abordan la gestión de personas, sino que también fomenta un ambiente de colaboración, creatividad y comunicación abierta. Al permitir que los empleados expresen sus ideas y emociones a través de la construcción con bloques, se rompen las barreras tradicionales y se promueve un sentido de pertenencia y compromiso.\nImplementar esta metodología puede ser un cambio de juego para las organizaciones que buscan innovar en su cultura laboral y mejorar la dinámica de equipo. \nEl éxito de una empresa radica en su gente, y al invertir en su desarrollo y bienestar, se sientan las bases para un futuro más sólido y sostenible.\nAsí que, si estás buscando una forma de revitalizar la gestión de personas en tu empresa, considera darle una oportunidad a  la metodología LEGO® SERIOUS PLAY®. No solo estarás construyendo modelos físicos, sino también un entorno donde las ideas pueden florecer y las relaciones pueden fortalecerse. ¡Es hora de jugar en serio!"
+                }
+            ]
+        },
+        {
+            "id": "",
+            "title": "Maestros del juego: alcance y límites de un facilitador de LSP",
+            "type":"Articulo de facilitadores",
+            "author":{
+                "name":"Carmen De la Sierra",
+                "profession":"Técnico Organización y Talento",
+                "area":"Area selección de personal.Comunicacion Interna",
+                "role":"Facilitador certificado de la metodología LEGO® SERIOUS PLAY®"
+            },
+            "dateOfPublication":"19-10-2024",
+            "fecha":"2025-05-06",
+            "imageCard":"/frontend/public/assets/images/blogs/cards/Blog3-card.png",
+            "references":[
+                {
+                    "title":"Flat. (2021, 12 abril). Descubre la metodología LEGO SERIOUS PLAY. ESERP Digital Business & Law School",
+                    "link":"https://es.eserp.com/articulos/lego-serious-play/"
+                },
+                {
+                    "title":"Solórzano, P. (2023, 25 octubre). Casos de éxito de Lego Serious Play - Pedro Solorzano. Pedro Solorzano.",
+                    "link":"https://www.pedrosolorzano.com/casos-de-exito-de-lego-serious-play/"
+                },
+                {
+                    "title":"Camacho, F. (2024, 18 marzo). ¿Por qué usar Lego® Serious Play®? Interactius.",
+                    "link":"https://interactius.com/workshops/por-que-usar-lego-serious-play/"
+
+                }
+            ],
+           "content":[
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-banner.png",
+                    "alt":"Banner del articulo"
+                },
+                {   
+                    "type":"heading",
+                    "text":"Como recruiter, eres el primer contacto que los candidatos tienen con tu organización"    
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En un mundo en el que la globalidad nos ha impuesto la construcción de la MARCA como ventaja competitiva frente a los competidores y en el que el mantra “todo comunica o todo vende” guía el grueso de nuestras actuaciones, el reclutador se erige en una posición de abanderado de la empresa. Con su “Know How” será la cara visible de toda una aventura que comenzará para muchas personas que se encuentren en el trabajo de buscar trabajo."
+                },
+                {
+                    "type":"subtitle",
+                    "text":"¿Y si participar en un proceso de selección en tu empresa fuera un valor añadido frente a otras?"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Según datos de la consultora Deloitte, el 56% de las empresas ya utilizan inteligencia artificial y análisis de datos en sus procesos de selección. La implementación de herramientas como software de reclutamiento, chatbots ...puede agilizar el proceso, reducir tiempos de espera y mejorar la eficiencia en la gestión de candidatos.\nSin embargo, después de esta primera fase del proceso de selección, en la que, el reclutador no tiene ni por qué haber interactuado con el candidato, el Dpto de Personas agenda una entrevista con el candidato, toma de contacto basada en la confianza que hace que:"
+                },
+                {
+                    "type": "list",
+                    "style": "check",
+                    "items": [
+                        "Reduce la ansiedad del candidato.",
+                        "Fomenta una comunicación más abierta y honesta.",
+                        "Permite una evaluación más precisa de las habilidades.",
+                        "Mejora la experiencia del candidato."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En resumen, combinar una experiencia centrada en el candidato con la tecnología adecuada puede generar beneficios tanto para la empresa como para los futuros empleados."
+                },
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-banner.png"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Y es en este punto en donde la metodología de LEGO® SERIOUS PLAY® nos puede ayudar a “humanizar” el proceso."
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "🎨 Aumenta la creatividad: Al utilizar piezas de Lego, los candidatos pueden expresar sus ideas y pensamientos de manera mucho más creativa y visual, lo que puede revelar habilidades y perspectivas que no se obtendrían en una entrevista tradicional.",
+                        "📢 Mejora de la comunicación: LSP promueve la comunicación abierta y efectiva. Los participantes al explicar sus construcciones, entrenan habilidades de presentación y argumentación.",
+                        "🌱 Soft skills: Permite observar cómo los candidatos trabajan en equipo, resuelven problemas y manejan la presión. Permite observar cómo los candidatos interactúan y colaboran con otros, esencial en entornos laborales.",
+                        "🚀 Al ser un enfoque más lúdico, los candidatos pueden sentirse más relajados y cómodos, lo que puede llevar a una mejor representación de sus verdaderas habilidades y personalidad. ¡Construimos nuestros pensamientos con las manos!",
+                        "💡 La construcción con Lego invita a la reflexión profunda sobre las experiencias y habilidades de los candidatos, lo que puede llevar a descubrimientos muy valiosos tanto para ellos como para los evaluadores."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"La metodología Lego Serious Play no solo hace que el proceso de selección sea más dinámico y divertido “Jugando Serio”, sino que también proporciona una visión más completa de los candidatos."
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Quienes ya lo utilizaron en sus procesos vinculados a PERSONAS apuestan por la metodologíay es que Lego puede encajar desde:"
+                },
+                {
+                    "type":"list",
+                    "items":[
+                        "1. Grupo Santander utilizó la metodología para realizar talleres y sesiones de formación destinadas a mejorar la colaboración y el trabajo en equipo dentro de la organización. Como resultado, se implementaron cambios en la cultura corporativa y se logró una mayor participación y compromiso por parte de los empleados.",
+                        "2. La compañía tecnológica Google utilizó LEGO® SERIOUS PLAY® en un proyecto de transformación organizativa. Esto permitió identificar áreas de mejora y generar ideas innovadoras para el cambio.",
+                        "3. Coca-Cola utilizó LEGO® SERIOUS PLAY® como parte de su estrategia de transformación digital. Esto les permitió comprender mejor los desafíos y encontrar nuevas formas de llevar adelante la transformación digital de la empresa.",
+                        "4. La NASA utilizó LSP como herramienta de innovación y resolución de problemas. Esta metodología para generar ideas creativas y encontrar soluciones innovadoras que de otra manera podrían haber sido pasadas por alto.",
+                        "5. IKEA también ha utilizado LEGO® SERIOUS PLAY® en su proceso de transformación, lo que les permitió una mayor comprensión y alineación entre los empleados contribuyendo a la transformación de la organización.",
+                        "6. LEGO® Group ha utilizado su propia metodología para abordar desafíos internos y mejorar la colaboración.",
+                        "7. DHL recurrió a LEGO® SERIOUS PLAY® para fortalecer la colaboración y la comunicación entre sus equipos dispersos en diferentes ubicaciones mejorando así la eficiencia operativa y la satisfacción del cliente."
+                    ]
+                },
+                {
+                    "type":"subtitle",
+                    "text":"Y quién te puede guiar en este camino de implementación y desarrollo…"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"...Porque la  metodología LEGO® SERIOUS PLAY® no solo transforma la forma en que las empresas abordan la gestión de personas, sino que también fomenta un ambiente de colaboración, creatividad y comunicación abierta. Al permitir que los empleados expresen sus ideas y emociones a través de la construcción con bloques, se rompen las barreras tradicionales y se promueve un sentido de pertenencia y compromiso.\nImplementar esta metodología puede ser un cambio de juego para las organizaciones que buscan innovar en su cultura laboral y mejorar la dinámica de equipo. \nEl éxito de una empresa radica en su gente, y al invertir en su desarrollo y bienestar, se sientan las bases para un futuro más sólido y sostenible.\nAsí que, si estás buscando una forma de revitalizar la gestión de personas en tu empresa, considera darle una oportunidad a  la metodología LEGO® SERIOUS PLAY®. No solo estarás construyendo modelos físicos, sino también un entorno donde las ideas pueden florecer y las relaciones pueden fortalecerse. ¡Es hora de jugar en serio!"
+                }
+            ]
+        },
+        {
+            "id": "",
+            "title": "Maestros del juego: alcance y límites de un facilitador de LSP",
+            "type":"Articulo de facilitadores",
+            "author":{
+                "name":"Carmen De la Sierra",
+                "profession":"Técnico Organización y Talento",
+                "area":"Area selección de personal.Comunicacion Interna",
+                "role":"Facilitador certificado de la metodología LEGO® SERIOUS PLAY®"
+            },
+            "dateOfPublication":"19-10-2024",
+            "fecha":"2025-05-06",
+            "imageCard":"/frontend/public/assets/images/blogs/cards/Blog3-card.png",
+            "references":[
+                {
+                    "title":"Flat. (2021, 12 abril). Descubre la metodología LEGO SERIOUS PLAY. ESERP Digital Business & Law School",
+                    "link":"https://es.eserp.com/articulos/lego-serious-play/"
+                },
+                {
+                    "title":"Solórzano, P. (2023, 25 octubre). Casos de éxito de Lego Serious Play - Pedro Solorzano. Pedro Solorzano.",
+                    "link":"https://www.pedrosolorzano.com/casos-de-exito-de-lego-serious-play/"
+                },
+                {
+                    "title":"Camacho, F. (2024, 18 marzo). ¿Por qué usar Lego® Serious Play®? Interactius.",
+                    "link":"https://interactius.com/workshops/por-que-usar-lego-serious-play/"
+
+                }
+            ],
+           "content":[
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-banner.png",
+                    "alt":"Banner del articulo"
+                },
+                {   
+                    "type":"heading",
+                    "text":"Como recruiter, eres el primer contacto que los candidatos tienen con tu organización"    
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En un mundo en el que la globalidad nos ha impuesto la construcción de la MARCA como ventaja competitiva frente a los competidores y en el que el mantra “todo comunica o todo vende” guía el grueso de nuestras actuaciones, el reclutador se erige en una posición de abanderado de la empresa. Con su “Know How” será la cara visible de toda una aventura que comenzará para muchas personas que se encuentren en el trabajo de buscar trabajo."
+                },
+                {
+                    "type":"subtitle",
+                    "text":"¿Y si participar en un proceso de selección en tu empresa fuera un valor añadido frente a otras?"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Según datos de la consultora Deloitte, el 56% de las empresas ya utilizan inteligencia artificial y análisis de datos en sus procesos de selección. La implementación de herramientas como software de reclutamiento, chatbots ...puede agilizar el proceso, reducir tiempos de espera y mejorar la eficiencia en la gestión de candidatos.\nSin embargo, después de esta primera fase del proceso de selección, en la que, el reclutador no tiene ni por qué haber interactuado con el candidato, el Dpto de Personas agenda una entrevista con el candidato, toma de contacto basada en la confianza que hace que:"
+                },
+                {
+                    "type": "list",
+                    "style": "check",
+                    "items": [
+                        "Reduce la ansiedad del candidato.",
+                        "Fomenta una comunicación más abierta y honesta.",
+                        "Permite una evaluación más precisa de las habilidades.",
+                        "Mejora la experiencia del candidato."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En resumen, combinar una experiencia centrada en el candidato con la tecnología adecuada puede generar beneficios tanto para la empresa como para los futuros empleados."
+                },
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-banner.png"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Y es en este punto en donde la metodología de LEGO® SERIOUS PLAY® nos puede ayudar a “humanizar” el proceso."
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "🎨 Aumenta la creatividad: Al utilizar piezas de Lego, los candidatos pueden expresar sus ideas y pensamientos de manera mucho más creativa y visual, lo que puede revelar habilidades y perspectivas que no se obtendrían en una entrevista tradicional.",
+                        "📢 Mejora de la comunicación: LSP promueve la comunicación abierta y efectiva. Los participantes al explicar sus construcciones, entrenan habilidades de presentación y argumentación.",
+                        "🌱 Soft skills: Permite observar cómo los candidatos trabajan en equipo, resuelven problemas y manejan la presión. Permite observar cómo los candidatos interactúan y colaboran con otros, esencial en entornos laborales.",
+                        "🚀 Al ser un enfoque más lúdico, los candidatos pueden sentirse más relajados y cómodos, lo que puede llevar a una mejor representación de sus verdaderas habilidades y personalidad. ¡Construimos nuestros pensamientos con las manos!",
+                        "💡 La construcción con Lego invita a la reflexión profunda sobre las experiencias y habilidades de los candidatos, lo que puede llevar a descubrimientos muy valiosos tanto para ellos como para los evaluadores."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"La metodología Lego Serious Play no solo hace que el proceso de selección sea más dinámico y divertido “Jugando Serio”, sino que también proporciona una visión más completa de los candidatos."
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Quienes ya lo utilizaron en sus procesos vinculados a PERSONAS apuestan por la metodologíay es que Lego puede encajar desde:"
+                },
+                {
+                    "type":"list",
+                    "items":[
+                        "1. Grupo Santander utilizó la metodología para realizar talleres y sesiones de formación destinadas a mejorar la colaboración y el trabajo en equipo dentro de la organización. Como resultado, se implementaron cambios en la cultura corporativa y se logró una mayor participación y compromiso por parte de los empleados.",
+                        "2. La compañía tecnológica Google utilizó LEGO® SERIOUS PLAY® en un proyecto de transformación organizativa. Esto permitió identificar áreas de mejora y generar ideas innovadoras para el cambio.",
+                        "3. Coca-Cola utilizó LEGO® SERIOUS PLAY® como parte de su estrategia de transformación digital. Esto les permitió comprender mejor los desafíos y encontrar nuevas formas de llevar adelante la transformación digital de la empresa.",
+                        "4. La NASA utilizó LSP como herramienta de innovación y resolución de problemas. Esta metodología para generar ideas creativas y encontrar soluciones innovadoras que de otra manera podrían haber sido pasadas por alto.",
+                        "5. IKEA también ha utilizado LEGO® SERIOUS PLAY® en su proceso de transformación, lo que les permitió una mayor comprensión y alineación entre los empleados contribuyendo a la transformación de la organización.",
+                        "6. LEGO® Group ha utilizado su propia metodología para abordar desafíos internos y mejorar la colaboración.",
+                        "7. DHL recurrió a LEGO® SERIOUS PLAY® para fortalecer la colaboración y la comunicación entre sus equipos dispersos en diferentes ubicaciones mejorando así la eficiencia operativa y la satisfacción del cliente."
+                    ]
+                },
+                {
+                    "type":"subtitle",
+                    "text":"Y quién te puede guiar en este camino de implementación y desarrollo…"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"...Porque la  metodología LEGO® SERIOUS PLAY® no solo transforma la forma en que las empresas abordan la gestión de personas, sino que también fomenta un ambiente de colaboración, creatividad y comunicación abierta. Al permitir que los empleados expresen sus ideas y emociones a través de la construcción con bloques, se rompen las barreras tradicionales y se promueve un sentido de pertenencia y compromiso.\nImplementar esta metodología puede ser un cambio de juego para las organizaciones que buscan innovar en su cultura laboral y mejorar la dinámica de equipo. \nEl éxito de una empresa radica en su gente, y al invertir en su desarrollo y bienestar, se sientan las bases para un futuro más sólido y sostenible.\nAsí que, si estás buscando una forma de revitalizar la gestión de personas en tu empresa, considera darle una oportunidad a  la metodología LEGO® SERIOUS PLAY®. No solo estarás construyendo modelos físicos, sino también un entorno donde las ideas pueden florecer y las relaciones pueden fortalecerse. ¡Es hora de jugar en serio!"
+                }
+            ]
+        },{
+            "id": "",
+            "title": "¿Por qué es bueno utilizar LSP en los procesos de selección-?",
+            "type":"Articulo de facilitadores",
+            "author":{
+                "name":"Fanny López Amado",
+                "profession":"Técnico Organización y Talento",
+                "area":"Area selección de personal.Comunicacion Interna",
+                "role":"Facilitador certificado de la metodología LEGO® SERIOUS PLAY®"
+            },
+            "dateOfPublication":"19-10-2024",
+            "fecha":"2025-05-07",
+            "imageCard":"/frontend/public/assets/images/blogs/cards/Blog1-card.png",
+            "references":[
+                {
+                    "title":"Flat. (2021, 12 abril). Descubre la metodología LEGO SERIOUS PLAY. ESERP Digital Business & Law School",
+                    "link":"https://es.eserp.com/articulos/lego-serious-play/"
+                },
+                {
+                    "title":"Solórzano, P. (2023, 25 octubre). Casos de éxito de Lego Serious Play - Pedro Solorzano. Pedro Solorzano.",
+                    "link":"https://www.pedrosolorzano.com/casos-de-exito-de-lego-serious-play/"
+                },
+                {
+                    "title":"Camacho, F. (2024, 18 marzo). ¿Por qué usar Lego® Serious Play®? Interactius.",
+                    "link":"https://interactius.com/workshops/por-que-usar-lego-serious-play/"
+
+                }
+            ],
+            "content":[
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-banner.png",
+                    "alt":"Banner del articulo"
+                },
+                {   
+                    "type":"heading",
+                    "text":"Como recruiter, eres el primer contacto que los candidatos tienen con tu organización"    
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En un mundo en el que la globalidad nos ha impuesto la construcción de la MARCA como ventaja competitiva frente a los competidores y en el que el mantra “todo comunica o todo vende” guía el grueso de nuestras actuaciones, el reclutador se erige en una posición de abanderado de la empresa. Con su “Know How” será la cara visible de toda una aventura que comenzará para muchas personas que se encuentren en el trabajo de buscar trabajo."
+                },
+                {
+                    "type":"subtitle",
+                    "text":"¿Y si participar en un proceso de selección en tu empresa fuera un valor añadido frente a otras?"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Según datos de la consultora Deloitte, el 56% de las empresas ya utilizan inteligencia artificial y análisis de datos en sus procesos de selección. La implementación de herramientas como software de reclutamiento, chatbots ...puede agilizar el proceso, reducir tiempos de espera y mejorar la eficiencia en la gestión de candidatos.\nSin embargo, después de esta primera fase del proceso de selección, en la que, el reclutador no tiene ni por qué haber interactuado con el candidato, el Dpto de Personas agenda una entrevista con el candidato, toma de contacto basada en la confianza que hace que:"
+                },
+                {
+                    "type": "list",
+                    "style": "check",
+                    "items": [
+                        "Reduce la ansiedad del candidato.",
+                        "Fomenta una comunicación más abierta y honesta.",
+                        "Permite una evaluación más precisa de las habilidades.",
+                        "Mejora la experiencia del candidato."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En resumen, combinar una experiencia centrada en el candidato con la tecnología adecuada puede generar beneficios tanto para la empresa como para los futuros empleados."
+                },
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-banner.png"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Y es en este punto en donde la metodología de LEGO® SERIOUS PLAY® nos puede ayudar a “humanizar” el proceso."
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "🎨 Aumenta la creatividad: Al utilizar piezas de Lego, los candidatos pueden expresar sus ideas y pensamientos de manera mucho más creativa y visual, lo que puede revelar habilidades y perspectivas que no se obtendrían en una entrevista tradicional.",
+                        "📢 Mejora de la comunicación: LSP promueve la comunicación abierta y efectiva. Los participantes al explicar sus construcciones, entrenan habilidades de presentación y argumentación.",
+                        "🌱 Soft skills: Permite observar cómo los candidatos trabajan en equipo, resuelven problemas y manejan la presión. Permite observar cómo los candidatos interactúan y colaboran con otros, esencial en entornos laborales.",
+                        "🚀 Al ser un enfoque más lúdico, los candidatos pueden sentirse más relajados y cómodos, lo que puede llevar a una mejor representación de sus verdaderas habilidades y personalidad. ¡Construimos nuestros pensamientos con las manos!",
+                        "💡 La construcción con Lego invita a la reflexión profunda sobre las experiencias y habilidades de los candidatos, lo que puede llevar a descubrimientos muy valiosos tanto para ellos como para los evaluadores."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"La metodología Lego Serious Play no solo hace que el proceso de selección sea más dinámico y divertido “Jugando Serio”, sino que también proporciona una visión más completa de los candidatos."
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Quienes ya lo utilizaron en sus procesos vinculados a PERSONAS apuestan por la metodologíay es que Lego puede encajar desde:"
+                },
+                {
+                    "type":"list",
+                    "items":[
+                        "1. Grupo Santander utilizó la metodología para realizar talleres y sesiones de formación destinadas a mejorar la colaboración y el trabajo en equipo dentro de la organización. Como resultado, se implementaron cambios en la cultura corporativa y se logró una mayor participación y compromiso por parte de los empleados.",
+                        "2. La compañía tecnológica Google utilizó LEGO® SERIOUS PLAY® en un proyecto de transformación organizativa. Esto permitió identificar áreas de mejora y generar ideas innovadoras para el cambio.",
+                        "3. Coca-Cola utilizó LEGO® SERIOUS PLAY® como parte de su estrategia de transformación digital. Esto les permitió comprender mejor los desafíos y encontrar nuevas formas de llevar adelante la transformación digital de la empresa.",
+                        "4. La NASA utilizó LSP como herramienta de innovación y resolución de problemas. Esta metodología para generar ideas creativas y encontrar soluciones innovadoras que de otra manera podrían haber sido pasadas por alto.",
+                        "5. IKEA también ha utilizado LEGO® SERIOUS PLAY® en su proceso de transformación, lo que les permitió una mayor comprensión y alineación entre los empleados contribuyendo a la transformación de la organización.",
+                        "6. LEGO® Group ha utilizado su propia metodología para abordar desafíos internos y mejorar la colaboración.",
+                        "7. DHL recurrió a LEGO® SERIOUS PLAY® para fortalecer la colaboración y la comunicación entre sus equipos dispersos en diferentes ubicaciones mejorando así la eficiencia operativa y la satisfacción del cliente."
+                    ]
+                },
+                {
+                    "type":"subtitle",
+                    "text":"Y quién te puede guiar en este camino de implementación y desarrollo…"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"...Porque la  metodología LEGO® SERIOUS PLAY® no solo transforma la forma en que las empresas abordan la gestión de personas, sino que también fomenta un ambiente de colaboración, creatividad y comunicación abierta. Al permitir que los empleados expresen sus ideas y emociones a través de la construcción con bloques, se rompen las barreras tradicionales y se promueve un sentido de pertenencia y compromiso.\nImplementar esta metodología puede ser un cambio de juego para las organizaciones que buscan innovar en su cultura laboral y mejorar la dinámica de equipo. \nEl éxito de una empresa radica en su gente, y al invertir en su desarrollo y bienestar, se sientan las bases para un futuro más sólido y sostenible.\nAsí que, si estás buscando una forma de revitalizar la gestión de personas en tu empresa, considera darle una oportunidad a  la metodología LEGO® SERIOUS PLAY®. No solo estarás construyendo modelos físicos, sino también un entorno donde las ideas pueden florecer y las relaciones pueden fortalecerse. ¡Es hora de jugar en serio!"
+                }
+            ]
+        },
+        {
+            "id": "",
+            "title": "1 de enero 2025",
+            "type":"Articulo de facilitadores",
+            "author":{
+                "name":"Francisco Javier Gernade",
+                "profession":"Técnico Organización y Talento",
+                "area":"Area selección de personal.Comunicacion Interna",
+                "role":"Facilitador certificado de la metodología LEGO® SERIOUS PLAY®"
+            },
+            "dateOfPublication":"19-10-2024",
+            "fecha":"2025-02-02",
+            "imageCard":"/frontend/public/assets/images/blogs/cards/Blog2-card.png",
+            "references":[
+                {
+                    "title":"Flat. (2021, 12 abril). Descubre la metodología LEGO SERIOUS PLAY. ESERP Digital Business & Law School",
+                    "link":"https://es.eserp.com/articulos/lego-serious-play/"
+                },
+                {
+                    "title":"Solórzano, P. (2023, 25 octubre). Casos de éxito de Lego Serious Play - Pedro Solorzano. Pedro Solorzano.",
+                    "link":"https://www.pedrosolorzano.com/casos-de-exito-de-lego-serious-play/"
+                },
+                {
+                    "title":"Camacho, F. (2024, 18 marzo). ¿Por qué usar Lego® Serious Play®? Interactius.",
+                    "link":"https://interactius.com/workshops/por-que-usar-lego-serious-play/"
+
+                }
+            ],
+            "content":[
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-banner.png",
+                    "alt":"Banner del articulo"
+                },
+                {   
+                    "type":"heading",
+                    "text":"Como recruiter, eres el primer contacto que los candidatos tienen con tu organización"    
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En un mundo en el que la globalidad nos ha impuesto la construcción de la MARCA como ventaja competitiva frente a los competidores y en el que el mantra “todo comunica o todo vende” guía el grueso de nuestras actuaciones, el reclutador se erige en una posición de abanderado de la empresa. Con su “Know How” será la cara visible de toda una aventura que comenzará para muchas personas que se encuentren en el trabajo de buscar trabajo."
+                },
+                {
+                    "type":"subtitle",
+                    "text":"¿Y si participar en un proceso de selección en tu empresa fuera un valor añadido frente a otras?"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Según datos de la consultora Deloitte, el 56% de las empresas ya utilizan inteligencia artificial y análisis de datos en sus procesos de selección. La implementación de herramientas como software de reclutamiento, chatbots ...puede agilizar el proceso, reducir tiempos de espera y mejorar la eficiencia en la gestión de candidatos.\nSin embargo, después de esta primera fase del proceso de selección, en la que, el reclutador no tiene ni por qué haber interactuado con el candidato, el Dpto de Personas agenda una entrevista con el candidato, toma de contacto basada en la confianza que hace que:"
+                },
+                {
+                    "type": "list",
+                    "style": "check",
+                    "items": [
+                        "Reduce la ansiedad del candidato.",
+                        "Fomenta una comunicación más abierta y honesta.",
+                        "Permite una evaluación más precisa de las habilidades.",
+                        "Mejora la experiencia del candidato."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En resumen, combinar una experiencia centrada en el candidato con la tecnología adecuada puede generar beneficios tanto para la empresa como para los futuros empleados."
+                },
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-banner.png"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Y es en este punto en donde la metodología de LEGO® SERIOUS PLAY® nos puede ayudar a “humanizar” el proceso."
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "🎨 Aumenta la creatividad: Al utilizar piezas de Lego, los candidatos pueden expresar sus ideas y pensamientos de manera mucho más creativa y visual, lo que puede revelar habilidades y perspectivas que no se obtendrían en una entrevista tradicional.",
+                        "📢 Mejora de la comunicación: LSP promueve la comunicación abierta y efectiva. Los participantes al explicar sus construcciones, entrenan habilidades de presentación y argumentación.",
+                        "🌱 Soft skills: Permite observar cómo los candidatos trabajan en equipo, resuelven problemas y manejan la presión. Permite observar cómo los candidatos interactúan y colaboran con otros, esencial en entornos laborales.",
+                        "🚀 Al ser un enfoque más lúdico, los candidatos pueden sentirse más relajados y cómodos, lo que puede llevar a una mejor representación de sus verdaderas habilidades y personalidad. ¡Construimos nuestros pensamientos con las manos!",
+                        "💡 La construcción con Lego invita a la reflexión profunda sobre las experiencias y habilidades de los candidatos, lo que puede llevar a descubrimientos muy valiosos tanto para ellos como para los evaluadores."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"La metodología Lego Serious Play no solo hace que el proceso de selección sea más dinámico y divertido “Jugando Serio”, sino que también proporciona una visión más completa de los candidatos."
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Quienes ya lo utilizaron en sus procesos vinculados a PERSONAS apuestan por la metodologíay es que Lego puede encajar desde:"
+                },
+                {
+                    "type":"list",
+                    "items":[
+                        "1. Grupo Santander utilizó la metodología para realizar talleres y sesiones de formación destinadas a mejorar la colaboración y el trabajo en equipo dentro de la organización. Como resultado, se implementaron cambios en la cultura corporativa y se logró una mayor participación y compromiso por parte de los empleados.",
+                        "2. La compañía tecnológica Google utilizó LEGO® SERIOUS PLAY® en un proyecto de transformación organizativa. Esto permitió identificar áreas de mejora y generar ideas innovadoras para el cambio.",
+                        "3. Coca-Cola utilizó LEGO® SERIOUS PLAY® como parte de su estrategia de transformación digital. Esto les permitió comprender mejor los desafíos y encontrar nuevas formas de llevar adelante la transformación digital de la empresa.",
+                        "4. La NASA utilizó LSP como herramienta de innovación y resolución de problemas. Esta metodología para generar ideas creativas y encontrar soluciones innovadoras que de otra manera podrían haber sido pasadas por alto.",
+                        "5. IKEA también ha utilizado LEGO® SERIOUS PLAY® en su proceso de transformación, lo que les permitió una mayor comprensión y alineación entre los empleados contribuyendo a la transformación de la organización.",
+                        "6. LEGO® Group ha utilizado su propia metodología para abordar desafíos internos y mejorar la colaboración.",
+                        "7. DHL recurrió a LEGO® SERIOUS PLAY® para fortalecer la colaboración y la comunicación entre sus equipos dispersos en diferentes ubicaciones mejorando así la eficiencia operativa y la satisfacción del cliente."
+                    ]
+                },
+                {
+                    "type":"subtitle",
+                    "text":"Y quién te puede guiar en este camino de implementación y desarrollo…"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"...Porque la  metodología LEGO® SERIOUS PLAY® no solo transforma la forma en que las empresas abordan la gestión de personas, sino que también fomenta un ambiente de colaboración, creatividad y comunicación abierta. Al permitir que los empleados expresen sus ideas y emociones a través de la construcción con bloques, se rompen las barreras tradicionales y se promueve un sentido de pertenencia y compromiso.\nImplementar esta metodología puede ser un cambio de juego para las organizaciones que buscan innovar en su cultura laboral y mejorar la dinámica de equipo. \nEl éxito de una empresa radica en su gente, y al invertir en su desarrollo y bienestar, se sientan las bases para un futuro más sólido y sostenible.\nAsí que, si estás buscando una forma de revitalizar la gestión de personas en tu empresa, considera darle una oportunidad a  la metodología LEGO® SERIOUS PLAY®. No solo estarás construyendo modelos físicos, sino también un entorno donde las ideas pueden florecer y las relaciones pueden fortalecerse. ¡Es hora de jugar en serio!"
+                }
+            ]
+        },
+        {
+            "id": "",
+            "title": "Maestros del juego: alcance y límites de un facilitador de LSP",
+            "type":"Articulo de facilitadores",
+            "author":{
+                "name":"Carmen De la Sierra",
+                "profession":"Técnico Organización y Talento",
+                "area":"Area selección de personal.Comunicacion Interna",
+                "role":"Facilitador certificado de la metodología LEGO® SERIOUS PLAY®"
+            },
+            "dateOfPublication":"19-10-2024",
+            "fecha":"2025-05-06",
+            "imageCard":"/frontend/public/assets/images/blogs/cards/Blog3-card.png",
+            "references":[
+                {
+                    "title":"Flat. (2021, 12 abril). Descubre la metodología LEGO SERIOUS PLAY. ESERP Digital Business & Law School",
+                    "link":"https://es.eserp.com/articulos/lego-serious-play/"
+                },
+                {
+                    "title":"Solórzano, P. (2023, 25 octubre). Casos de éxito de Lego Serious Play - Pedro Solorzano. Pedro Solorzano.",
+                    "link":"https://www.pedrosolorzano.com/casos-de-exito-de-lego-serious-play/"
+                },
+                {
+                    "title":"Camacho, F. (2024, 18 marzo). ¿Por qué usar Lego® Serious Play®? Interactius.",
+                    "link":"https://interactius.com/workshops/por-que-usar-lego-serious-play/"
+
+                }
+            ],
+            "content":[
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-banner.png",
+                    "alt":"Banner del articulo"
+                },
+                {   
+                    "type":"heading",
+                    "text":"Como recruiter, eres el primer contacto que los candidatos tienen con tu organización"    
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En un mundo en el que la globalidad nos ha impuesto la construcción de la MARCA como ventaja competitiva frente a los competidores y en el que el mantra “todo comunica o todo vende” guía el grueso de nuestras actuaciones, el reclutador se erige en una posición de abanderado de la empresa. Con su “Know How” será la cara visible de toda una aventura que comenzará para muchas personas que se encuentren en el trabajo de buscar trabajo."
+                },
+                {
+                    "type":"subtitle",
+                    "text":"¿Y si participar en un proceso de selección en tu empresa fuera un valor añadido frente a otras?"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Según datos de la consultora Deloitte, el 56% de las empresas ya utilizan inteligencia artificial y análisis de datos en sus procesos de selección. La implementación de herramientas como software de reclutamiento, chatbots ...puede agilizar el proceso, reducir tiempos de espera y mejorar la eficiencia en la gestión de candidatos.\nSin embargo, después de esta primera fase del proceso de selección, en la que, el reclutador no tiene ni por qué haber interactuado con el candidato, el Dpto de Personas agenda una entrevista con el candidato, toma de contacto basada en la confianza que hace que:"
+                },
+                {
+                    "type": "list",
+                    "style": "check",
+                    "items": [
+                        "Reduce la ansiedad del candidato.",
+                        "Fomenta una comunicación más abierta y honesta.",
+                        "Permite una evaluación más precisa de las habilidades.",
+                        "Mejora la experiencia del candidato."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En resumen, combinar una experiencia centrada en el candidato con la tecnología adecuada puede generar beneficios tanto para la empresa como para los futuros empleados."
+                },
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-banner.png"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Y es en este punto en donde la metodología de LEGO® SERIOUS PLAY® nos puede ayudar a “humanizar” el proceso."
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "🎨 Aumenta la creatividad: Al utilizar piezas de Lego, los candidatos pueden expresar sus ideas y pensamientos de manera mucho más creativa y visual, lo que puede revelar habilidades y perspectivas que no se obtendrían en una entrevista tradicional.",
+                        "📢 Mejora de la comunicación: LSP promueve la comunicación abierta y efectiva. Los participantes al explicar sus construcciones, entrenan habilidades de presentación y argumentación.",
+                        "🌱 Soft skills: Permite observar cómo los candidatos trabajan en equipo, resuelven problemas y manejan la presión. Permite observar cómo los candidatos interactúan y colaboran con otros, esencial en entornos laborales.",
+                        "🚀 Al ser un enfoque más lúdico, los candidatos pueden sentirse más relajados y cómodos, lo que puede llevar a una mejor representación de sus verdaderas habilidades y personalidad. ¡Construimos nuestros pensamientos con las manos!",
+                        "💡 La construcción con Lego invita a la reflexión profunda sobre las experiencias y habilidades de los candidatos, lo que puede llevar a descubrimientos muy valiosos tanto para ellos como para los evaluadores."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"La metodología Lego Serious Play no solo hace que el proceso de selección sea más dinámico y divertido “Jugando Serio”, sino que también proporciona una visión más completa de los candidatos."
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Quienes ya lo utilizaron en sus procesos vinculados a PERSONAS apuestan por la metodologíay es que Lego puede encajar desde:"
+                },
+                {
+                    "type":"list",
+                    "items":[
+                        "1. Grupo Santander utilizó la metodología para realizar talleres y sesiones de formación destinadas a mejorar la colaboración y el trabajo en equipo dentro de la organización. Como resultado, se implementaron cambios en la cultura corporativa y se logró una mayor participación y compromiso por parte de los empleados.",
+                        "2. La compañía tecnológica Google utilizó LEGO® SERIOUS PLAY® en un proyecto de transformación organizativa. Esto permitió identificar áreas de mejora y generar ideas innovadoras para el cambio.",
+                        "3. Coca-Cola utilizó LEGO® SERIOUS PLAY® como parte de su estrategia de transformación digital. Esto les permitió comprender mejor los desafíos y encontrar nuevas formas de llevar adelante la transformación digital de la empresa.",
+                        "4. La NASA utilizó LSP como herramienta de innovación y resolución de problemas. Esta metodología para generar ideas creativas y encontrar soluciones innovadoras que de otra manera podrían haber sido pasadas por alto.",
+                        "5. IKEA también ha utilizado LEGO® SERIOUS PLAY® en su proceso de transformación, lo que les permitió una mayor comprensión y alineación entre los empleados contribuyendo a la transformación de la organización.",
+                        "6. LEGO® Group ha utilizado su propia metodología para abordar desafíos internos y mejorar la colaboración.",
+                        "7. DHL recurrió a LEGO® SERIOUS PLAY® para fortalecer la colaboración y la comunicación entre sus equipos dispersos en diferentes ubicaciones mejorando así la eficiencia operativa y la satisfacción del cliente."
+                    ]
+                },
+                {
+                    "type":"subtitle",
+                    "text":"Y quién te puede guiar en este camino de implementación y desarrollo…"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"...Porque la  metodología LEGO® SERIOUS PLAY® no solo transforma la forma en que las empresas abordan la gestión de personas, sino que también fomenta un ambiente de colaboración, creatividad y comunicación abierta. Al permitir que los empleados expresen sus ideas y emociones a través de la construcción con bloques, se rompen las barreras tradicionales y se promueve un sentido de pertenencia y compromiso.\nImplementar esta metodología puede ser un cambio de juego para las organizaciones que buscan innovar en su cultura laboral y mejorar la dinámica de equipo. \nEl éxito de una empresa radica en su gente, y al invertir en su desarrollo y bienestar, se sientan las bases para un futuro más sólido y sostenible.\nAsí que, si estás buscando una forma de revitalizar la gestión de personas en tu empresa, considera darle una oportunidad a  la metodología LEGO® SERIOUS PLAY®. No solo estarás construyendo modelos físicos, sino también un entorno donde las ideas pueden florecer y las relaciones pueden fortalecerse. ¡Es hora de jugar en serio!"
+                }
+            ]
+        },
+        {
+            "id": "",
+            "title": "Maestros del juego: alcance y límites de un facilitador de LSP",
+            "type":"Articulo de facilitadores",
+            "author":{
+                "name":"Carmen De la Sierra",
+                "profession":"Técnico Organización y Talento",
+                "area":"Area selección de personal.Comunicacion Interna",
+                "role":"Facilitador certificado de la metodología LEGO® SERIOUS PLAY®"
+            },
+            "dateOfPublication":"19-10-2024",
+            "fecha":"2025-05-06",
+            "imageCard":"/frontend/public/assets/images/blogs/cards/Blog3-card.png",
+            "references":[
+                {
+                    "title":"Flat. (2021, 12 abril). Descubre la metodología LEGO SERIOUS PLAY. ESERP Digital Business & Law School",
+                    "link":"https://es.eserp.com/articulos/lego-serious-play/"
+                },
+                {
+                    "title":"Solórzano, P. (2023, 25 octubre). Casos de éxito de Lego Serious Play - Pedro Solorzano. Pedro Solorzano.",
+                    "link":"https://www.pedrosolorzano.com/casos-de-exito-de-lego-serious-play/"
+                },
+                {
+                    "title":"Camacho, F. (2024, 18 marzo). ¿Por qué usar Lego® Serious Play®? Interactius.",
+                    "link":"https://interactius.com/workshops/por-que-usar-lego-serious-play/"
+
+                }
+            ],
+            "content":[
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-banner.png",
+                    "alt":"Banner del articulo"
+                },
+                {   
+                    "type":"heading",
+                    "text":"Como recruiter, eres el primer contacto que los candidatos tienen con tu organización"    
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En un mundo en el que la globalidad nos ha impuesto la construcción de la MARCA como ventaja competitiva frente a los competidores y en el que el mantra “todo comunica o todo vende” guía el grueso de nuestras actuaciones, el reclutador se erige en una posición de abanderado de la empresa. Con su “Know How” será la cara visible de toda una aventura que comenzará para muchas personas que se encuentren en el trabajo de buscar trabajo."
+                },
+                {
+                    "type":"subtitle",
+                    "text":"¿Y si participar en un proceso de selección en tu empresa fuera un valor añadido frente a otras?"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Según datos de la consultora Deloitte, el 56% de las empresas ya utilizan inteligencia artificial y análisis de datos en sus procesos de selección. La implementación de herramientas como software de reclutamiento, chatbots ...puede agilizar el proceso, reducir tiempos de espera y mejorar la eficiencia en la gestión de candidatos.\nSin embargo, después de esta primera fase del proceso de selección, en la que, el reclutador no tiene ni por qué haber interactuado con el candidato, el Dpto de Personas agenda una entrevista con el candidato, toma de contacto basada en la confianza que hace que:"
+                },
+                {
+                    "type": "list",
+                    "style": "check",
+                    "items": [
+                        "Reduce la ansiedad del candidato.",
+                        "Fomenta una comunicación más abierta y honesta.",
+                        "Permite una evaluación más precisa de las habilidades.",
+                        "Mejora la experiencia del candidato."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En resumen, combinar una experiencia centrada en el candidato con la tecnología adecuada puede generar beneficios tanto para la empresa como para los futuros empleados."
+                },
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-banner.png"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Y es en este punto en donde la metodología de LEGO® SERIOUS PLAY® nos puede ayudar a “humanizar” el proceso."
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "🎨 Aumenta la creatividad: Al utilizar piezas de Lego, los candidatos pueden expresar sus ideas y pensamientos de manera mucho más creativa y visual, lo que puede revelar habilidades y perspectivas que no se obtendrían en una entrevista tradicional.",
+                        "📢 Mejora de la comunicación: LSP promueve la comunicación abierta y efectiva. Los participantes al explicar sus construcciones, entrenan habilidades de presentación y argumentación.",
+                        "🌱 Soft skills: Permite observar cómo los candidatos trabajan en equipo, resuelven problemas y manejan la presión. Permite observar cómo los candidatos interactúan y colaboran con otros, esencial en entornos laborales.",
+                        "🚀 Al ser un enfoque más lúdico, los candidatos pueden sentirse más relajados y cómodos, lo que puede llevar a una mejor representación de sus verdaderas habilidades y personalidad. ¡Construimos nuestros pensamientos con las manos!",
+                        "💡 La construcción con Lego invita a la reflexión profunda sobre las experiencias y habilidades de los candidatos, lo que puede llevar a descubrimientos muy valiosos tanto para ellos como para los evaluadores."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"La metodología Lego Serious Play no solo hace que el proceso de selección sea más dinámico y divertido “Jugando Serio”, sino que también proporciona una visión más completa de los candidatos."
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Quienes ya lo utilizaron en sus procesos vinculados a PERSONAS apuestan por la metodologíay es que Lego puede encajar desde:"
+                },
+                {
+                    "type":"list",
+                    "items":[
+                        "1. Grupo Santander utilizó la metodología para realizar talleres y sesiones de formación destinadas a mejorar la colaboración y el trabajo en equipo dentro de la organización. Como resultado, se implementaron cambios en la cultura corporativa y se logró una mayor participación y compromiso por parte de los empleados.",
+                        "2. La compañía tecnológica Google utilizó LEGO® SERIOUS PLAY® en un proyecto de transformación organizativa. Esto permitió identificar áreas de mejora y generar ideas innovadoras para el cambio.",
+                        "3. Coca-Cola utilizó LEGO® SERIOUS PLAY® como parte de su estrategia de transformación digital. Esto les permitió comprender mejor los desafíos y encontrar nuevas formas de llevar adelante la transformación digital de la empresa.",
+                        "4. La NASA utilizó LSP como herramienta de innovación y resolución de problemas. Esta metodología para generar ideas creativas y encontrar soluciones innovadoras que de otra manera podrían haber sido pasadas por alto.",
+                        "5. IKEA también ha utilizado LEGO® SERIOUS PLAY® en su proceso de transformación, lo que les permitió una mayor comprensión y alineación entre los empleados contribuyendo a la transformación de la organización.",
+                        "6. LEGO® Group ha utilizado su propia metodología para abordar desafíos internos y mejorar la colaboración.",
+                        "7. DHL recurrió a LEGO® SERIOUS PLAY® para fortalecer la colaboración y la comunicación entre sus equipos dispersos en diferentes ubicaciones mejorando así la eficiencia operativa y la satisfacción del cliente."
+                    ]
+                },
+                {
+                    "type":"subtitle",
+                    "text":"Y quién te puede guiar en este camino de implementación y desarrollo…"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"...Porque la  metodología LEGO® SERIOUS PLAY® no solo transforma la forma en que las empresas abordan la gestión de personas, sino que también fomenta un ambiente de colaboración, creatividad y comunicación abierta. Al permitir que los empleados expresen sus ideas y emociones a través de la construcción con bloques, se rompen las barreras tradicionales y se promueve un sentido de pertenencia y compromiso.\nImplementar esta metodología puede ser un cambio de juego para las organizaciones que buscan innovar en su cultura laboral y mejorar la dinámica de equipo. \nEl éxito de una empresa radica en su gente, y al invertir en su desarrollo y bienestar, se sientan las bases para un futuro más sólido y sostenible.\nAsí que, si estás buscando una forma de revitalizar la gestión de personas en tu empresa, considera darle una oportunidad a  la metodología LEGO® SERIOUS PLAY®. No solo estarás construyendo modelos físicos, sino también un entorno donde las ideas pueden florecer y las relaciones pueden fortalecerse. ¡Es hora de jugar en serio!"
+                }
+            ]
+        },
+        {
+            "id": "",
+            "title": "Maestros del juego: alcance y límites de un facilitador de LSP--",
+            "type":"Articulo de facilitadores",
+            "author":{
+                "name":"Carmen De la Sierra",
+                "profession":"Técnico Organización y Talento",
+                "area":"Area selección de personal.Comunicacion Interna",
+                "role":"Facilitador certificado de la metodología LEGO® SERIOUS PLAY®"
+            },
+            "dateOfPublication":"19-10-2024",
+            "fecha":"2025-05-10",
+            "imageCard":"/frontend/public/assets/images/blogs/cards/Blog3-card.png",
+            "references":[
+                {
+                    "title":"Flat. (2021, 12 abril). Descubre la metodología LEGO SERIOUS PLAY. ESERP Digital Business & Law School",
+                    "link":"https://es.eserp.com/articulos/lego-serious-play/"
+                },
+                {
+                    "title":"Solórzano, P. (2023, 25 octubre). Casos de éxito de Lego Serious Play - Pedro Solorzano. Pedro Solorzano.",
+                    "link":"https://www.pedrosolorzano.com/casos-de-exito-de-lego-serious-play/"
+                },
+                {
+                    "title":"Camacho, F. (2024, 18 marzo). ¿Por qué usar Lego® Serious Play®? Interactius.",
+                    "link":"https://interactius.com/workshops/por-que-usar-lego-serious-play/"
+
+                }
+            ],
+            "content":[
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-banner.png",
+                    "alt":"Banner del articulo"
+                },
+                {   
+                    "type":"heading",
+                    "text":"Como recruiter, eres el primer contacto que los candidatos tienen con tu organización"    
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En un mundo en el que la globalidad nos ha impuesto la construcción de la MARCA como ventaja competitiva frente a los competidores y en el que el mantra “todo comunica o todo vende” guía el grueso de nuestras actuaciones, el reclutador se erige en una posición de abanderado de la empresa. Con su “Know How” será la cara visible de toda una aventura que comenzará para muchas personas que se encuentren en el trabajo de buscar trabajo."
+                },
+                {
+                    "type":"subtitle",
+                    "text":"¿Y si participar en un proceso de selección en tu empresa fuera un valor añadido frente a otras?"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Según datos de la consultora Deloitte, el 56% de las empresas ya utilizan inteligencia artificial y análisis de datos en sus procesos de selección. La implementación de herramientas como software de reclutamiento, chatbots ...puede agilizar el proceso, reducir tiempos de espera y mejorar la eficiencia en la gestión de candidatos.\nSin embargo, después de esta primera fase del proceso de selección, en la que, el reclutador no tiene ni por qué haber interactuado con el candidato, el Dpto de Personas agenda una entrevista con el candidato, toma de contacto basada en la confianza que hace que:"
+                },
+                {
+                    "type": "list",
+                    "style": "check",
+                    "items": [
+                        "Reduce la ansiedad del candidato.",
+                        "Fomenta una comunicación más abierta y honesta.",
+                        "Permite una evaluación más precisa de las habilidades.",
+                        "Mejora la experiencia del candidato."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"En resumen, combinar una experiencia centrada en el candidato con la tecnología adecuada puede generar beneficios tanto para la empresa como para los futuros empleados."
+                },
+                {
+                    "type":"image",
+                    "src":"/frontend/public/assets/images/blogs/Blog1-banner.png"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Y es en este punto en donde la metodología de LEGO® SERIOUS PLAY® nos puede ayudar a “humanizar” el proceso."
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "🎨 Aumenta la creatividad: Al utilizar piezas de Lego, los candidatos pueden expresar sus ideas y pensamientos de manera mucho más creativa y visual, lo que puede revelar habilidades y perspectivas que no se obtendrían en una entrevista tradicional.",
+                        "📢 Mejora de la comunicación: LSP promueve la comunicación abierta y efectiva. Los participantes al explicar sus construcciones, entrenan habilidades de presentación y argumentación.",
+                        "🌱 Soft skills: Permite observar cómo los candidatos trabajan en equipo, resuelven problemas y manejan la presión. Permite observar cómo los candidatos interactúan y colaboran con otros, esencial en entornos laborales.",
+                        "🚀 Al ser un enfoque más lúdico, los candidatos pueden sentirse más relajados y cómodos, lo que puede llevar a una mejor representación de sus verdaderas habilidades y personalidad. ¡Construimos nuestros pensamientos con las manos!",
+                        "💡 La construcción con Lego invita a la reflexión profunda sobre las experiencias y habilidades de los candidatos, lo que puede llevar a descubrimientos muy valiosos tanto para ellos como para los evaluadores."
+                    ]
+                },
+                {
+                    "type":"paragraph",
+                    "text":"La metodología Lego Serious Play no solo hace que el proceso de selección sea más dinámico y divertido “Jugando Serio”, sino que también proporciona una visión más completa de los candidatos."
+                },
+                {
+                    "type":"paragraph",
+                    "text":"Quienes ya lo utilizaron en sus procesos vinculados a PERSONAS apuestan por la metodologíay es que Lego puede encajar desde:"
+                },
+                {
+                    "type":"list",
+                    "items":[
+                        "1. Grupo Santander utilizó la metodología para realizar talleres y sesiones de formación destinadas a mejorar la colaboración y el trabajo en equipo dentro de la organización. Como resultado, se implementaron cambios en la cultura corporativa y se logró una mayor participación y compromiso por parte de los empleados.",
+                        "2. La compañía tecnológica Google utilizó LEGO® SERIOUS PLAY® en un proyecto de transformación organizativa. Esto permitió identificar áreas de mejora y generar ideas innovadoras para el cambio.",
+                        "3. Coca-Cola utilizó LEGO® SERIOUS PLAY® como parte de su estrategia de transformación digital. Esto les permitió comprender mejor los desafíos y encontrar nuevas formas de llevar adelante la transformación digital de la empresa.",
+                        "4. La NASA utilizó LSP como herramienta de innovación y resolución de problemas. Esta metodología para generar ideas creativas y encontrar soluciones innovadoras que de otra manera podrían haber sido pasadas por alto.",
+                        "5. IKEA también ha utilizado LEGO® SERIOUS PLAY® en su proceso de transformación, lo que les permitió una mayor comprensión y alineación entre los empleados contribuyendo a la transformación de la organización.",
+                        "6. LEGO® Group ha utilizado su propia metodología para abordar desafíos internos y mejorar la colaboración.",
+                        "7. DHL recurrió a LEGO® SERIOUS PLAY® para fortalecer la colaboración y la comunicación entre sus equipos dispersos en diferentes ubicaciones mejorando así la eficiencia operativa y la satisfacción del cliente."
+                    ]
+                },
+                {
+                    "type":"subtitle",
+                    "text":"Y quién te puede guiar en este camino de implementación y desarrollo…"
+                },
+                {
+                    "type":"paragraph",
+                    "text":"...Porque la  metodología LEGO® SERIOUS PLAY® no solo transforma la forma en que las empresas abordan la gestión de personas, sino que también fomenta un ambiente de colaboración, creatividad y comunicación abierta. Al permitir que los empleados expresen sus ideas y emociones a través de la construcción con bloques, se rompen las barreras tradicionales y se promueve un sentido de pertenencia y compromiso.\nImplementar esta metodología puede ser un cambio de juego para las organizaciones que buscan innovar en su cultura laboral y mejorar la dinámica de equipo. \nEl éxito de una empresa radica en su gente, y al invertir en su desarrollo y bienestar, se sientan las bases para un futuro más sólido y sostenible.\nAsí que, si estás buscando una forma de revitalizar la gestión de personas en tu empresa, considera darle una oportunidad a  la metodología LEGO® SERIOUS PLAY®. No solo estarás construyendo modelos físicos, sino también un entorno donde las ideas pueden florecer y las relaciones pueden fortalecerse. ¡Es hora de jugar en serio!"
+                }
+            ]
+        }
+    ]
+}

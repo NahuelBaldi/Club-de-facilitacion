@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --font-primary: 'Nunito', sans-serif;
+    --color-primary: #024287;
+    --color-primary-200:#0B7FFB;
+    --color-primary-400:#012C5A;
+    --color-secondary:#F6B432;
+    --color-secondary-200:#FBDA98;
+    --color-secondary-400:#BD8108;
+    --color-background: #FFFFFB;
+    --color-gris-100:#F7F7F9;
+    --color-gris-400:#999CA6;
+    --color-gris-500: #595D69;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+.main-title{
+    font-size: 2rem;
+    text-align: center;
+    background-color: var(--color-primary-400);
+    color: var(--color-background);
+    width: 100%;
+    padding: 2rem 0;
+    font-weight: 900;
+}
+.container-facilitadores{
+  margin: 5rem 0;
+}
+/* Renderizado */
+.contenedor-facilitadores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.seccion-agrupacion {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  
+}
+
+.titulo-agrupacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #222;
+  margin: 1rem 0;
+}
+
+.bandera {
+  width: 5rem;
+  height: 4rem;
+  object-fit: cover;
+  border-radius: 8px;
+  
+}
+.card-facilitador {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 300px;
+  min-width: 416px;
+  min-height: 680px;
+  height: 100%;
+  justify-content: space-between;
+}
+.contenido {
+  flex-grow: 1;
+  margin-bottom: 1rem;
+}
+.acciones {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  height: 3.75rem;
+  align-items: center;
+  background-color: var(--color-primary);
+  width: 100%;
+}
+
+.text-acciones{
+    color: var(--color-background);
+    font-size: 1.2rem;
+}
+.container-redes{
+    display: flex;
+    gap:1rem;
+    padding: .5rem 0;
+}
+
+.imagen {
+  object-fit: cover;
+  margin-bottom: 1rem;
+  width: 416px;
+  height: 320px;
+}
+
+
+
+.card-facilitador .botones {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.card-facilitador .botones a {
+  display: inline-block;
+  padding: 0.4rem 0.6rem;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: #0077b5; 
+  color: white;
+  font-size: 0.85rem;
+  transition: background-color 0.3s ease;
+}
+
+.card-facilitador .botones a.btn-email {
+  background-color: #444;
+}
+
+.card-facilitador .botones a:hover {
+  opacity: 0.85;
+}
+
+    
+.nombre{
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  padding: 1rem 0;
+}
+.ocupacion {
+  font-size: .875rem;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+  /* color: var(--color-gris-500); */
+
+}
+.descripcion {
+  font-size: 1rem; 
+  line-height: 1.6; 
+  padding: 0 2rem;
+  text-align: center; 
+  max-width: 600px; 
+  margin-left: auto;
+  margin-right: auto;
+  /* color: var(--color-gris-500); */
+
+}

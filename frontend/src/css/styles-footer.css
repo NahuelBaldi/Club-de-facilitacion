@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --font-primary: 'Nunito', sans-serif;
+    --color-primary: #024287;
+    --color-primary-200:#0B7FFB;
+    --calor-primary-400:#012C5A;
+    --color-secondary:#F6B432;
+    --color-secondary-200:#FBDA98;
+    --color-secondary-400:#BD8108;
+    --color-background: #FFFFFB;
+    --color-gris-100:#F7F7F9;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+}
+.container-bottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-copyright{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--calor-primary-400);
+}
+.copyright{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-background);
+    padding: .5rem 0;
+}
+.conteiner-legal-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 0;
+    gap: .5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.legal-text{
+    text-decoration: none;
+    color: var(--color-background);
+}
+.legal-text:hover{
+    text-decoration: underline;
+}
+.container-top{
+    width: 100%;
+    /* min-height: 350px; */
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 2rem 0;
+    padding-bottom: 5rem;
+    flex-direction: row;
+}
+.footer-indevelo{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: start;
+    gap: 1rem;
+}
+.indevelo-logo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: var(--color-background);
+    padding-left: 5rem;
+}
+.indevelo-title{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-background);
+    padding-left: 5rem;
+}
+.indevelo-name{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-background);
+    padding-left: 1rem;
+}
+.indevelo-contacto{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-background);
+    gap: .5rem;
+    padding-left: 5rem;
+}
+.indevelo-contacto:hover{
+    text-decoration: underline;
+}
+.footer-logo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    color: var(--color-background);
+}
+.logo-icon{
+    width: 10rem;
+}
+
+.footer-social-media{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    color: var(--color-background);
+
+}
+.social-media-icon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: start;
+}
+.social-media-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.linkedin-link{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-background);
+    gap: .5rem;
+}
+.linkedin-link:hover{
+    text-decoration: underline;
+}
+.container-contact-info{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    padding-top: 2rem;
+    gap: 2rem;
+}
+.mail-link{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-background);
+    gap: .5rem;
+}
+.mail-link:hover{
+    text-decoration: underline;
+}
+.adress-link{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-background);
+    gap: .5rem;
+}
+.adress-link:hover{
+    text-decoration: underline;
+}
+.mail-icon{
+    width: 2rem;
+    height: 2rem;
+}
+.adress-icon{
+    width: 2rem;
+    height: 2rem;
+}
+.linkedin-icon{
+    width: 2rem;
+    height: 2rem;
+}

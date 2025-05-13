@@ -2,13 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root{
-    --font-primary: 'Nunito', sans-serif;
-    --color-primary: #024287;
-    --color-secondary: #012C5A;    
-    --color-tertiary: #0B7FFB;
-    --color-button-cta: #F6B432;
-    --color-button-cta-hover: #F6B432;
+  --font-primary: 'Nunito', sans-serif;
+  --color-primary: #024287;
+  --color-primary-200:#0B7FFB;
+  --color-primary-400:#012C5A;
+  --color-secondary:#F6B432;
+  --color-secondary-200:#FBDA98;
+  --color-secondary-400:#BD8108;
+  --color-background: #FFFFFB;
 
+}
+html {
+  scroll-behavior: smooth;
 }
 *{
     margin: 0;
@@ -104,8 +109,11 @@
   }
   
   .submenu-item a:hover {
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary-400);
+    box-shadow: inset 0 0 0 1px var(--color-background);
+
   }
   .menu-link,.submenu-item a {
   white-space: nowrap;
+
 }

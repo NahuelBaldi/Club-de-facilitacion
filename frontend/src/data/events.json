@@ -1,0 +1,119 @@
+{
+    "events": [
+        {
+            "id" : "1",
+            "title" : "Tu valor, la llave de tu entrevista 1",
+            "image" : "public/assets/images/imagen-evento.png",
+            "type" : "Taller solidario de empleabilidad1",
+            "description" : "EL objetivo de este taller es ayudar a las personas en busqueda activa de empleo a identificar sus habilidades y fortalezas, y a utilizarlas para destacar en una entrevista de trabajo. Se trabajará en grupo, con dinámicas de facilitación visual y técnicas de coaching.",
+            "objetive" : "El objetivo de este taller es ayudar a las personas en busqueda activa de empleo a identificar sus habilidades y fortalezas, y a utilizarlas para destacar en una entrevista de trabajo. Se trabajará en grupo, con dinámicas de facilitación visual y técnicas de coaching y demas.",
+            "facilitatores" :[
+                {
+                    "name":"Alicia Jover",
+                    "photo": "/frontend/public/assets/images/facilitadores/img-placeholder.png"
+                },
+                {
+                    "name":"Alicia Jover2",
+                    "photo": "/frontend/public/assets/images/facilitadores/img-placeholder.png"
+                },
+                {
+                    "name":"Alicia Jover3",
+                    "photo": "/frontend/public/assets/images/facilitadores/img-placeholder.png"
+                }
+            ],
+            "modality" : "Presencial 1",
+            "organizers": ["Club de Facilitación LSP", "Cascos.org"],
+            "location": {
+                "name": "European Business Factory 1",
+                "mapLink": "https://maps.app.goo.gl/FkdzNycdPBMknGdQ8"
+            },  
+            "targetAudience": "Personas en búsqueda activa de empleo 1",
+            "date": {
+                "from": "2025-03-08",
+                "to": "2025-03-09"
+            },
+            "time": {
+                "from": "11:00",
+                "to": "13:00"
+            }
+        },
+        {
+            "id" : "2",
+            "title" : "Tu valor, la llave de tu entrevista 2",
+            "image" : "public/assets/images/imagen-evento.png",
+            "type" : "Taller solidario de empleabilidad",
+            "description" : "Lorem ipsum dolor sit amet consectetur. Arcu nulla ut eu risus neque massa suspendisse ante nulla. Vel enim et in aliquet vestibulum nisl. Est massa ut vulputate aliquet sit malesuada id. Dolor sollicitudin urna suspendisse lectus sit porttitor tristique. Vel nullam molestie lorem dictum nibh lacus. Turpis est semper sapien sem facilisis. Malesuada nunc nibh vivamus sed hac velit.",
+            "objetive" : "Lorem ipsum dolor sit amet consectetur. Maecenas mattis netus et neque tincidunt in ultrices.. Ac diam quam faucibus sapien in etiam.. Sit cursus nec posuere mauris iaculis vel.. Vitae ut sit tristique aenean vulputate eget placerat in.. Pharetra interdum hendrerit mollis ornare in.. Diam eget ultrices ultrices magnis purus diam a.. Nunc felis ultrices quisque pellentesque id bibendum ornare.. In sed id vel faucibus diam sollicitudin.. Vitae pellentesque vel nunc leo pretium in.. Quis orci aliquam tempus erat. Etiam eleifend id feugiat erat sollicitudin pellentesque.. Imperdiet tincidunt enim dictumst est donec.. Id leo pulvinar ac vulputate lacus.. Tincidunt ultrices eget ut sed commodo elit ornare id.. Gravida lorem porta feugiat amet placerat.. Tortor diam volutpat mattis enim nibh nisi arcu viverra consectetur.. Amet orci ut sapien ac. Amet ut risus ac euismod dui.. Urna.",
+            "facilitatores" :[
+                {
+                    "name":"Alicia Jover",
+                    "photo":"/frontend/public/assets/images/facilitadores/img-placeholder.png"
+                },
+                {
+                    "name":"Alicia Jover",
+                    "photo":"/frontend/public/assets/images/facilitadores/img-placeholder.png"
+                },
+                {
+                    "name":"Alicia Jover",
+                    "photo":"/frontend/public/assets/images/facilitadores/img-placeholder.png"
+                }
+            ],
+            "modality" : "Presencial",
+            "organizers": ["Club de Facilitación LSP", "Cascos.org"],
+            "location": {
+                "name": "European Business Factory",
+                "mapLink": "https://maps.app.goo.gl/FkdzNycdPBMknGdQ8"
+            },  
+            "targetAudience": "Personas en busqueda activa de empleo",
+            "date": {
+                "from": "2025-01-01",
+                "to": "2025-01-01"
+            },
+            "time": {
+                "from": "11:00",
+                "to": "13:00"
+            }
+        },
+        {
+            "id" : "3",
+            "title" : "Tu valor, la llave de tu entrevista 3",
+            "image" : "public/assets/images/imagen-evento.png",
+            "type" : "Taller solidario de empleabilidad",
+            "description" : "Lorem ipsum dolor sit amet consectetur. Arcu nulla ut eu risus neque massa suspendisse ante nulla. Vel enim et in aliquet vestibulum nisl. Est massa ut vulputate aliquet sit malesuada id. Dolor sollicitudin urna suspendisse lectus sit porttitor tristique. Vel nullam molestie lorem dictum nibh lacus. Turpis est semper sapien sem facilisis. Malesuada nunc nibh vivamus sed hac velit.",
+            "objetive" : "Lorem ipsum dolor sit amet consectetur. Maecenas mattis netus et neque tincidunt in ultrices.. Ac diam quam faucibus sapien in etiam.. Sit cursus nec posuere mauris iaculis vel.. Vitae ut sit tristique aenean vulputate eget placerat in.. Pharetra interdum hendrerit mollis ornare in.. Diam eget ultrices ultrices magnis purus diam a.. Nunc felis ultrices quisque pellentesque id bibendum ornare.. In sed id vel faucibus diam sollicitudin.. Vitae pellentesque vel nunc leo pretium in.. Quis orci aliquam tempus erat. Etiam eleifend id feugiat erat sollicitudin pellentesque.. Imperdiet tincidunt enim dictumst est donec.. Id leo pulvinar ac vulputate lacus.. Tincidunt ultrices eget ut sed commodo elit ornare id.. Gravida lorem porta feugiat amet placerat.. Tortor diam volutpat mattis enim nibh nisi arcu viverra consectetur.. Amet orci ut sapien ac. Amet ut risus ac euismod dui.. Urna.",
+            "facilitatores" :[
+                {
+                    "name":"Alicia Jover",
+                    "photo":"/frontend/public/assets/images/facilitadores/img-placeholder.png"
+                },
+                {
+                    "name":"Alicia Jover",
+                    "photo":"/frontend/public/assets/images/facilitadores/img-placeholder.png"
+                },
+                {
+                    "name":"Alicia Jover",
+                    "photo":"/frontend/public/assets/images/facilitadores/img-placeholder.png"
+                }
+            ],
+            "modality" : "Presencial",
+            "organizers": ["Club de Facilitación LSP", "Cascos.org"],
+            "location": {
+                "name": "European Business Factory",
+                "mapLink": "https://maps.app.goo.gl/FkdzNycdPBMknGdQ8"
+            },  
+            "targetAudience": "Personas en busqueda activa de empleo",
+            "date": {
+                "from": "2025-01-01",
+                "to": "2025-01-02"
+            },
+            "time": {
+                "from": "11:00",
+                "to": "13:00"
+            } 
+        }
+
+    ]
+
+
+
+}

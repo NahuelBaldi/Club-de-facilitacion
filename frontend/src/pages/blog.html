@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs-Club de facilitación</title>
+    <link rel="icon" href="/frontend/public/assets/icons/favicon.svg" type="image/svg+xml">
+    <script src="/frontend/src/js/includes.js" defer></script>
+    <script src="/frontend/src/js/menu-desplegable.js" defer></script>
+    <link rel="stylesheet" href="/frontend/src/css/styles-nav.css">
+    <link rel="stylesheet" href="/frontend/src/css/styles-footer.css">
+    <link rel="stylesheet" href="/frontend/src/css/pages/blog-article.css">
+    <script src="/frontend/src/js/render-article.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <div id="container-nav"></div>
+    </header>
+    <main>
+        <div class="container-back">
+            <img class="arrow_back" src="/frontend/public/assets/icons/arrow_back.svg" alt="arrow_back">
+            <a class="todos-los-eventos-link" href="/frontend/src/pages/magazine.html">Todas las publicaciones</a>
+        </div>
+        <article id="blog-article" class="container-article"></article>
+        
+        <div class="blog-footer">
+            <p class="cta-text">¿Eres facilitador de la metodología LEGO® SERIOUS PLAY® y quisieras compartir contenido en nuestro BLOG? ¡No dudes en comunicarte con nosotras!</p>
+            <span class="mail-title">Nuestro mail:</span>
+            <a class="mail-link-footer" href="https://mail.google.com/mail/?view=cm&to=nbaldiviezo17@gmail.com&su=Quiero%20contactarme%20con%20el%20Club" target="_blank">clubfacilitacionlspgalicia@gmail.com</a>
+        </div>
+        
+        <div class="share-section">
+            <p class="share-title">Comparte esta publicación</p>
+            <div class="share-buttons">
+                <a id="share-linkedin" target="_blank" aria-label="Compartir en LinkedIn">
+                    <img class="share-icon" src="/frontend/public/assets/icons/redes-icons/linkedin.svg" alt="LinkedIn">
+                </a>
+                <a id="share-x" target="_blank" aria-label="Compartir en X">
+                    <img class="share-icon" src="/frontend/public/assets/icons/redes-icons/twitter.svg" alt="X">
+                </a>
+                <a id="share-facebook" target="_blank" aria-label="Compartir en Facebook">
+                    <img class="share-icon" src="/frontend/public/assets/icons/redes-icons/facebook.svg" alt="Facebook">
+                </a>
+                <a id="share-whatsapp" target="_blank" aria-label="Compartir en WhatsApp">
+                    <img class="share-icon" src="/frontend/public/assets/icons/redes-icons/whatsapp.svg" alt="WhatsApp">
+                </a>
+                <a id="share-telegram" target="_blank" aria-label="Compartir en Telegram">
+                    <img class="share-icon" src="/frontend/public/assets/icons/redes-icons/telegram.svg" alt="Telegram">
+                </a>
+            </div>
+        </div>
+
+         <template id="blog-post-template">
+            <div class="blog-header">
+            <h1 class="blog-title"></h1>
+            <p class="blog-author"></p>
+            <p class="blog-date"></p>
+            </div>
+            <img class="blog-image" alt="Imagen del blog">
+            <div class="blog-content"></div>    
+        </template>
+    </main>
+    <footer>
+        <section class="footer" id="container-contact">
+        </section>
+    </footer>
+</body>
+</html>

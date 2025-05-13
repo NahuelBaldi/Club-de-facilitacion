@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine del Club</title>
+    <link rel="icon" href="/frontend/public/assets/icons/favicon.svg" type="image/svg+xml">
+    <script src="/frontend/src/js/includes.js" defer></script>
+    <script src="/frontend/src/js/menu-desplegable.js" defer></script>
+    <link rel="stylesheet" href="/frontend/src/css/styles-nav.css">
+    <link rel="stylesheet" href="/frontend/src/css/styles-footer.css">
+    <link rel="stylesheet" href="/frontend/src/css/pages/styles-magazine.css">
+    <script src="/frontend/src/js/render-blogs.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="container-nav"></div> 
+    </header>
+    <main>
+        <h1 class="main-title" id="blog">MAGAZINE DEL CLUB</h1>
+        <section class="containter-blog">
+            <h2 class="title-blog">Explora nuestros artículos más recientes</h2>
+            <div class="blogs-container"></div>
+            <div id="pagination-controls"></div>
+        </section>
+
+        <template id="blog-card-template">
+            <div class="blog-card">
+                <span class="blog-card-date">30 de septiembre de 2024</span>
+                <div class="blog-card-content">
+                    <img class="blog-card-image" src="/frontend/public/assets/images/blogs/cards/img-placeholder-blog-card.png"></img>
+                    <div class="blog-card-info">
+                        <h3 class="blog-card-title">Metología LSP: Una herramienta clave para tagibilizar ideas </h3>
+                        <p class="blog-card-description">En un mundo en el que la globalidad nos ha impuesto la construcción de la MARCA como ventaja competitiva frente a los competidores y en el que el mantra “todo comunica o todo vende” guía el grueso de nuestras actuaciones, el reclutador se erige en una posición de abanderado de la empresa. Con su “Know How” será la cara visible de toda una aventura que comenzará para muchas personas que se encuentren en el trabajo de buscar trabajo.</p>
+                        <div class="blog-card-container-button">
+                            <a href="#" class="blog-card-link">Ver artículo completo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </template>
+
+
+        <section class="containter-galeria" id="galeria">
+        <h2 class="title-galeria">Galeria del Club</h2>
+
+            <div class="galeria">
+                <div class="item item1"></div>
+                <div class="item item2"></div>
+                <div class="item item3"></div>
+                <div class="item item4"></div>
+                <div class="item item5"></div>
+                <div class="item item6"></div>
+                <div class="item item7"></div>
+                <div class="item item8"></div>
+              </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer" id="container-contact"></section>
+    </footer>
+</body>
+</html>

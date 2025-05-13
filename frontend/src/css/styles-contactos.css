@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --font-primary: 'Nunito', sans-serif;
+    --color-primary: #024287;
+    --color-primary-200:#0B7FFB;
+    --calor-primary-400:#012C5A;
+    --color-secondary:#F6B432;
+    --color-secondary-200:#FBDA98;
+    --color-secondary-400:#BD8108;
+    --color-background: #FFFFFB;
+    --color-gris-100:#F7F7F9;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+.contactos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.contactos-title{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.contactos-tabs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5rem;
+}
+.tab-btn{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    background-color: var(--color-background);
+    border: 1px solid var(--color-primary);
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-bottom: none;
+}
+.active{
+    background-color: var(--color-primary);
+    color: var(--color-background);
+}
+.active:hover{
+    background-color: var(--calor-primary-400);
+}
+.container-message-form{
+    width: 100%;
+    height: auto;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-gris-100);
+    border-top: 1px solid var(--color-primary);
+    border-bottom: 1px solid var(--color-primary);
+}
+.form-message{
+   width: 50%;
+   min-height: 700px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10rem 0;
+   /* border: 1px solid var(--color-primary); */
+   flex-wrap: wrap; 
+}
+.form-paragraph{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.form-logo-icon{
+    padding-top: 5rem;
+    width:10rem;
+}
+.container-form{
+    width: 50%;
+    min-height: 700px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap; 
+}
+.contact-form{
+    border: 1px solid var(--color-secondary-200);
+    width: 80%;
+    max-width: 700px;
+    height: auto;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    /* align-items: start; */
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: var(--calor-primary-400);
+    gap: 2rem;
+    border-radius: 16px;
+}
+.form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+.checkbox-group {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    /* max-width: 600px; */
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+  /* color: var(--color-background); */
+}
+.form-group label{
+    color: var(--color-background);
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  outline: none;
+  background-color: var(--color-background);
+  transition: all 1s ease;
+}
+input[type="text"]:focus::placeholder,
+input[type="email"]:focus::placeholder,
+input[type="tel"]:focus::placeholder,
+textarea:focus::placeholder {
+    color: rgba(255, 255, 255, 0);
+    opacity: 0;
+}
+textarea {
+    width: 100%;             
+    height: 150px;           /* o el valor que quieras */
+    resize: none;           
+    overflow-y: auto;        
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.contacto-container-button{
+    display: flex;
+    justify-content: end;
+}
+.form-button-submit{
+    min-width: 150px;
+    background-color: var(--color-button-cta);
+    color: var(--color-primary-200);
+    padding: 1rem;
+    border-radius: 32px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+    
+}
+.form-button-submit:hover{
+    /* background-color: #E4C077; */
+    color: var(--color-background)
+}
+.contactos-subtitle{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    margin-bottom: 2rem;
+}
+
+.form-footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    /* font-size: 1.2rem; */
+    /* font-weight: 400; */
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+.form-footer-title{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    /* padding-top: 0rem; */
+}
+.container-contact-buttons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 2rem;
+}
+.contact-button{
+    width: 20%;
+    height: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-primary);
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding: .5rem 0;
+}
+.icon-link{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    width: 2rem;
+    height: 2rem;
+}
+.boton-mail {
+    background-color: white;
+    color: var(--color-primary);
+  }
+  .boton-mail:hover {
+    background-color: var(--color-gris-100);
+    color: white;
+  }
+  
+  .boton-linkedin {
+    background-color: var(--color-primary);
+    color: white;
+  }
+  .boton-linkedin:hover {
+    background-color: var(--calor-primary-400);
+  }
+  .evento-alerta{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-background);
+    font-size: 1.2rem;
+}

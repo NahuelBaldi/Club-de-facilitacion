@@ -1,0 +1,111 @@
+{
+  "agrupaciones": [
+    {
+      "tipo": "ciudad",
+      "nombre": "GOBERNANZA - Sede en A Coruña, Galiza a terra do Clube",
+      "pais": "España",
+      "bandera": "/frontend/public/assets/icons/flags/galicia.svg",
+      "facilitadores": [
+        {
+          "nombre": "Inés Taveira - Madrid",
+          "ocupacion": "Facilitadora Metodología LEGO® SERIOUS PLAY® Psicóloga y coach ejecutiva y gestión del cambio.",
+          "descripcion": " Mediante la metodología LSP y procesos de coaching ejecutivo, potencio la comunicación, cohesión y autoconciencia, ayudando a líderes y equipos a desbloquear su potencial y alcanzar resultados excepcionales y sostenibles.",
+          "imagen": "/frontend/public/assets/images/facilitadores/inestraveira.webp",
+          "email": "ejemplo@email.com",
+          "linkedin": "https://linkedin.com/in/usuario"
+        },
+        {
+          "nombre": "Nombre del Facilitador",
+          "ocupacion": "Ocupación",
+          "descripcion": "Trainer en Formación de la metodología LEGO® SERIOUS PLAY®. Facilitadora Senior de Alto Impacto / Agile & Inbound Sales Specialist / Coach & Mentora",
+          "imagen": "/frontend/public/assets/images/facilitadores/img-card-facilitador.png",
+          "email": "ejemplo@email.com",
+          "linkedin": "https://linkedin.com/in/usuario"
+        },
+        {
+          "nombre": "Nombre del Facilitador",
+          "ocupacion": "Ocupación",
+          "descripcion": "Trainer en Formación de la metodología LEGO® SERIOUS PLAY®. Facilitadora Senior de Alto Impacto / Agile & Inbound Sales Specialist / Coach & Mentora",
+          "imagen": "/frontend/public/assets/images/facilitadores/img-card-facilitador.png",
+          "email": "ejemplo@email.com",
+          "linkedin": "https://linkedin.com/in/usuario"
+        }
+      ]
+    },
+    {
+      "tipo": "pais",
+      "nombre": "España",
+      "bandera": "/frontend/public/assets/icons/flags/españa.svg",
+      "facilitadores": [
+        {
+          "nombre": "Otro Facilitador",
+          "ocupacion": "Ocupación",
+          "descripcion": "Descripción profesional",
+          "imagen": "/frontend/public/assets/images/facilitadores/img-card-facilitador.png",
+          "email": "ejemplo2@email.com",
+          "linkedin": "https://linkedin.com/in/usuario2"
+        }
+      ]
+    },
+    {
+      "tipo": "pais",
+      "nombre": "Colombia",
+      "bandera": "/frontend/public/assets/icons/flags/colombia.svg",
+      "facilitadores": [
+        {
+          "nombre": "Otro Facilitador",
+          "ocupacion": "Ocupación",
+          "descripcion": "Descripción profesional",
+          "imagen": "/frontend/public/assets/images/facilitadores/img-card-facilitador.png",
+          "email": "ejemplo2@email.com",
+          "linkedin": "https://linkedin.com/in/usuario2"
+        }
+      ]
+    },
+    {
+      "tipo": "pais",
+      "nombre": "México",
+      "bandera": "/frontend/public/assets/icons/flags/colombia.svg",
+      "facilitadores": [
+        {
+          "nombre": "Otro Facilitador",
+          "ocupacion": "Ocupación",
+          "descripcion": "Descripción profesional",
+          "imagen": "/frontend/public/assets/images/facilitadores/img-card-facilitador.png",
+          "email": "ejemplo2@email.com",
+          "linkedin": "https://linkedin.com/in/usuario2"
+        }
+      ]
+    },
+    {
+      "tipo": "pais",
+      "nombre": "Portugal",
+      "bandera": "/frontend/public/assets/icons/flags/portugal.svg",
+      "facilitadores": [
+        {
+          "nombre": "Otro Facilitador",
+          "ocupacion": "Ocupación",
+          "descripcion": "Descripción profesional",
+          "imagen": "/frontend/public/assets/images/facilitadores/img-card-facilitador.png",
+          "email": "ejemplo2@email.com",
+          "linkedin": "https://linkedin.com/in/usuario2"
+        }
+      ]
+    },
+    {
+      "tipo": "pais",
+      "nombre": "Argentina",
+      "bandera": "/frontend/public/assets/icons/flags/argentina.svg",
+      "facilitadores": [
+        {
+          "nombre": "Otro Facilitador",
+          "ocupacion": "Ocupación",
+          "descripcion": "Descripción profesional",
+          "imagen": "/frontend/public/assets/images/facilitadores/img-card-facilitador.png",
+          "email": "ejemplo2@email.com",
+          "linkedin": "https://linkedin.com/in/usuario2"
+        }
+      ]
+    }
+  ]
+}

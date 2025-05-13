@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --font-primary: 'Nunito', sans-serif;
+    --color-primary: #024287;
+    --color-primary-200:#0B7FFB;
+    --calor-primary-400:#012C5A;
+    --color-secondary:#F6B432;
+    --color-secondary-200:#FBDA98;
+    --color-secondary-400:#BD8108;
+    --color-background: #FFFFFB;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+.estadisticas{
+    margin-top: 5rem;
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+    font-family: 2rem;
+    font-weight: 800;
+}
+.estadisticas-title{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.estadisticas-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 2rem 0;
+}
+.estadisticas-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1rem; */
+    /* padding: 2rem 0; */
+    width: 200px;
+    /* max-width: 300px; */
+    /* min-height: 200px; */
+}
+.estaditicas-card-number{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.estadisticas-card-description{
+    font-weight: 400;
+    text-align: center;
+    text-wrap: wrap;
+    padding-left: .5rem;
+}

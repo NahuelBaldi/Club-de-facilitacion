@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --font-primary: 'Nunito', sans-serif;
+    --color-primary: #024287;
+    --color-primary-200:#0B7FFB;
+    --color-primary-400:#012C5A;
+    --color-secondary:#F6B432;
+    --color-secondary-200:#FBDA98;
+    --color-secondary-400:#BD8108;
+    --color-background: #FFFFFB;
+    --color-gris-100:#F7F7F9;
+    --color-gris-400:#999CA6;
+    --color-gris-500: #595D69;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+
+
+
+.container-back{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    width: auto;
+    gap: 1rem;
+    padding-left: 5rem;
+    padding-top: 2rem;
+}
+.todos-los-eventos-link{
+    text-decoration: none;
+    color: var(--color-primary);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.todos-los-eventos-link:hover{
+    text-decoration: underline;
+}
+.arrow_back{
+    color: var(--color-primary);
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.container-article{
+    width: 60%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* estilos del blog */
+.blog-title{
+    color: var(--color-gris-500);
+    font-size: 2rem;
+    font-weight: 600;
+}
+.blog-meta{
+    padding-top: 1rem;
+    font-size: 1.25rem;
+    color: var(--color-gris-400);
+}
+.blog-meta-date{
+    padding-right: 1rem;
+}
+.blog-meta-type {
+    position: relative;
+    padding-left: 1rem;
+}
+.blog-meta-type::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 1em;
+    background-color: var(--color-gris-400);
+}
+.blog-img{
+    display: block;           /* Quita el espacio blanco debajo de las imágenes inline */
+    max-width: 100%;          /* Escala la imagen para que no se desborde del contenedor */
+    height: auto;             /* Mantiene la proporción original */
+    border-radius: 1rem;       /* Bordes redondeados suaves (opcional) */
+    object-fit: cover;        /* En caso de que establezcas un alto fijo */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Sombra sutil para dar profundidad */
+}
+.blog-img-0{
+    width: 600px;
+    height: 300px;
+    margin: 2rem 0;
+}
+.blog-heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-gris-500);
+    padding-bottom: 1.5rem;
+}
+.blog-subtitle{
+    color: var(--color-gris-500);
+    font-weight:700;
+    font-size: 1rem;
+    padding: .5rem 0;
+}
+.blog-paragraph{
+    color: var(--color-gris-500);
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+.blog-checklist{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: .5rem;
+    font-size: 1rem;
+}
+.blog-checklist li::before {
+    content: "✅";
+    color: green;
+}
+.blog-list-item{
+    color: var(--color-gris-500);
+    padding: .25rem 0;
+}
+.blog-img-1{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.blog-list{
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+    list-style-position: outside;
+}
+.blog-paragraph-5{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+.blog-list-2 {
+  text-indent: -1rem; /* Sube el número para que no esté alineado con el texto */
+  padding-left: 1rem; /* Alinea el texto correctamente */
+  margin-bottom: 0.5em; /* Espaciado entre ítems */
+}
+.blog-paragraph-6{
+    margin-bottom: 3rem;
+}
+.blog-author{
+    color: var(--color-gris-500);
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.blog-author-label{
+    font-weight: 700;
+}
+.blog-author-link{
+    text-decoration: none;
+    color: var(--color-gris-500);
+}
+.blog-author-link:hover{
+    text-decoration: underline;
+}
+.blog-references{
+    color: var(--color-gris-500);
+}
+.blog-references-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+.blog-references-link{
+    color: var(--color-gris-500);
+}
+.blog-references-link:hover{
+    color: var(--color-primary);
+}
+.blog-footer{
+    width: 60%;
+    color: var(--color-gris-500);
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+.cta-text{
+    padding: .5rem 0;
+}
+.mail-title{
+    font-weight: 700;   
+}
+.mail-link-footer{
+    color: var(--color-gris-500);
+}
+.mail-link-footer:hover{
+    color: var(--color-primary);
+}
+/* Seccion de botones */
+.share-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.share-title {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.share-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.share-buttons a {
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  transition: transform 0.3s ease;
+}
+
+.share-buttons a:hover {
+  transform: scale(1.1);
+}
+
+.share-buttons img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.share-section{
+    margin-bottom: 5rem;
+}
+.share-icon svg {
+  transition: transform 0.2s ease;
+}
+
+.share-icon:hover svg {
+  transform: scale(1.1); /* efecto al pasar el mouse */
+}
+.share-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}

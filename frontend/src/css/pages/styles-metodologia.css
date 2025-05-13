@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --font-primary: 'Nunito', sans-serif;
+    --color-primary: #024287;
+    --color-primary-200:#0B7FFB;
+    --color-primary-400:#012C5A;
+    --color-secondary:#F6B432;
+    --color-secondary-200:#FBDA98;
+    --color-secondary-400:#BD8108;
+    --color-background: #FFFFFB;
+    --color-gris-100:#F7F7F9;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+body{
+    background-color: var(--color-background);
+
+}
+
+.main-title{
+    font-size: 2rem;
+    text-align: center;
+    background-color: var(--color-primary-400);
+    color: var(--color-background);
+    width: 100%;
+    padding: 2rem 0;
+    font-weight: 900;
+}
+.container-metodologia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 5rem;
+    margin:5rem 0;
+    gap: 5rem;
+}
+.metodologia-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 3rem;
+    padding:  0 2rem;
+}
+/* .reverse{
+    flex-direction: row-reverse;
+} */
+.metodologia-card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    max-width: 400px;
+    padding: 2rem 0;
+    gap: 2rem;
+    text-align: start;
+    min-height: 400px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px rgba(66, 65, 65, 0.452);
+    /* text-wrap: wrap; */
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+    padding: 2rem;
+    text-align: center;
+    overflow: hidden;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.metodologia-card-img{
+    object-fit: cover;
+    max-width:auto;
+    min-width: 400px;
+    /* z-index: 1; */
+    min-height: 400px;
+    border-radius: 16px;
+}
+.metodologia-card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.metodologia-card-paragraph{
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    align-items: center;
+}
+
+.metodologia-card-reverse{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 3rem;
+    padding:  0 2rem;
+}
+.metodologia-card-text-reverse{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 1rem;
+    text-align: start;
+    min-height: 400px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px rgba(66, 65, 65, 0.452);
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+    padding: 2rem 1rem;
+    text-align: center;
+    overflow: hidden;
+    max-height: 400px;
+    /* overflow-y: auto; */
+    max-width: 855px;
+    border-radius: 16px;
+
+}
+.metodologia-card-img-reverse{
+    object-fit: cover;
+    max-width:auto;
+    min-width: 400px;
+    min-height: 400px;
+    border-radius: 16px;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.metodologia-card-title-reverse{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.metodologia-card-paragraph-reverse{
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+    align-items: center;
+    gap: .5rem;
+}
+.metodologia-button-facilitadores{
+    background-color: var(--color-secondary);
+    color: var(--color-primary-200);
+    padding: 1rem 2rem;
+    border-radius: 32px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.metodologia-button-facilitadores:hover{
+    /* background-color: #E4C077; */
+    color: var( --color-background);
+    
+}
+
+
+/* Carrousel */
+.container-testimonios{
+    margin:5rem 0;
+}
+.testimonios-title{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 0;
+    border-radius: 16px;
+  }
+
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+    cursor: grab;
+    height: 500px;
+    border-radius: 16px;
+  }
+
+  .testimonial {
+    min-width: 100%;
+    flex-shrink: 0;
+    padding: 2rem;
+    /* background: #1f1f1f; */
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background-image: url(/frontend/public/assets/images/fondo-hero.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 16px;
+}
+  .content-testimonio{
+    background-color: rgba(26, 18, 18, 0.507);
+    backdrop-filter: blur(10px);
+    width: 80%;
+    height: 90%;
+    padding: 2rem;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+  }
+  .testimonio-author{
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  .testimonio-text{
+    font-size: 1rem;
+    font-weight: 400;
+    /* color: #fff; */
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .carousel-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    padding: 1rem;
+  }
+
+  .carousel-button {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    /* border-radius: 50%; */
+    border-radius: 5px;
+  }
+
+  .carousel-button:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }

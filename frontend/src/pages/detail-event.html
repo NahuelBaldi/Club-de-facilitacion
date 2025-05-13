@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del evento</title>
+    <link rel="icon" href="/frontend/public/assets/icons/favicon.svg" type="image/svg+xml">
+    <script src="/frontend/src/js/includes.js" defer></script>
+    <script src="/frontend/src/js/menu-desplegable.js" defer></script>
+    <link rel="stylesheet" href="/frontend/src/css/styles-nav.css">
+    <link rel="stylesheet" href="/frontend/src/css/styles-footer.css">
+    <link rel="stylesheet" href="/frontend/src/css/pages/styles-detail-events.css">
+    <script src="/frontend/src/js/render-detail-event.js"></script>
+
+</head>
+<body>
+    <header>
+        <div id="container-nav"></div> 
+    </header>
+    <main>
+        <h1 class="main-title" id="detalles-del-evento">DETALLES DEL EVENTO</h1>
+        <div class="container-back">
+            <img class="arrow_back" src="/frontend/public/assets/icons/arrow_back.svg" alt="arrow_back">
+            <a class="todos-los-eventos-link" href="/frontend/index.html#todos-los-eventos">Todos los eventos</a>
+        </div>
+    
+        <section class="container-details-events"></section>
+
+        <template id="template-detail-event">
+          
+            <div class="details-events">
+            <h1 class="detail-event-title" >Nombre del evento</h1>
+            <section class="container-columns">
+              <article class="left-column">
+                <section class="container-description-event">
+                    <h2 class="description-title">Objetivos del taller</h2>
+                    <p class="description-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aliquid culpa quis eligendi quasi? Explicabo, ullam ea pariatur totam sunt fugit sint rerum inventore nam est omnis aliquam rem, illum corrupti. Sapiente saepe animi vel quisquam voluptates cum at, similique laudantium dolores mollitia quos, iure delectus nostrum! Dolores consequuntur ut voluptatem sit at praesentium exercitationem vero esse laudantium sint labore placeat pariatur impedit facere odio magni saepe cum nam, est cumque voluptas dolorem vitae eligendi. Voluptatem explicabo facilis harum saepe. Odit cupiditate animi natus. Quasi eligendi sit iste molestiae nisi ut fugit, asperiores iusto! Molestias reiciendis dignissimos officia voluptatibus consequuntur necessitatibus doloremque, velit eos animi veniam quo quisquam repellat vel optio hic. Quae placeat, excepturi amet vel porro repellat, eligendi autem consequuntur sequi aperiam assumenda nostrum tempora, distinctio error. Quos eos ipsum voluptates laborum delectus corrupti deserunt nobis placeat laudantium sapiente. Optio, perferendis. Eaque at ut voluptatibus iste sequi a tenetur reiciendis hic officiis numquam, reprehenderit voluptate quasi molestiae minus optio eveniet, earum temporibus quos perspiciatis libero! Expedita dignissimos, excepturi et unde repudiandae quam temporibus dolor labore aut asperiores placeat ad eligendi similique veritatis deserunt laborum fuga qui. Officia culpa consequatur quibusdam ipsam recusandae incidunt, sapiente cupiditate error voluptatibus? Nemo quasi culpa perspiciatis animi, totam ipsum quod? Possimus ducimus a odio tempora corporis, expedita culpa laborum iste voluptas dolore laudantium qui doloribus ratione voluptatibus velit similique reiciendis facere sint explicabo repudiandae consectetur sunt. Officia mollitia possimus ipsa veniam recusandae quis iure quas sunt ducimus blanditiis voluptates vitae, nemo obcaecati molestias numquam sapiente, sequi, consequuntur fugit voluptate fuga! Velit possimus dignissimos ea temporibus iusto delectus assumenda perferendis repellat ad, officiis repellendus placeat praesentium earum porro incidunt aut pariatur expedita, repudiandae cumque veritatis natus quis accusamus! Explicabo reiciendis perspiciatis consequuntur sequi officia commodi nam, ipsum, accusantium, rerum nihil expedita corporis reprehenderit? Ab?
+                    </p>
+                </section>
+                <section class="container-facilitators-event">
+                    <h3 class="facilitators-event-title">Coordinadores/Facilitadores</h3>
+                    <div class="container-facilitators-cards"></div>
+                </section>
+            </article>
+            <aside class="right-column">
+                <section class="container-event-details">
+                    <h2 class="details-title">Detalles del evento</h2>
+                    <dl class="details-list">
+                        <div class="details-list-item">
+                          <span class="item-title">Tipo de actividad:</span>
+                          <span class="item-info actividad"> Taller Solidario de empleabilidad</span>
+                          
+                        </div>
+                        <div class="details-list-item">
+                          <span class="item-title">Modalidad:</span>
+                          <span class="item-info modalidad"> Taller Solidario de empleabilidad</span>
+                        </div>
+                        <div class="details-list-item">
+                          <span class="item-title">Lugar:</span>
+                          <span class="item-info lugar">
+                          <a class="lugar-link" href=""></a>
+                          </span>                          
+                        </div>
+                        <div class="details-list-item">
+                          <span class="item-title">Dirigido a:</span>
+                          <span class="item-info dirigido"> Taller Solidario de empleabilidad</span>
+                        </div>
+                        <div class="details-list-item">
+                          <span class="item-title">Organización:</span>
+                          <span class="item-info organizacion"> Taller Solidario de empleabilidad</span>
+
+                        </div>
+
+                        <div class="details-list-item">
+                          <span class="item-title">Fecha:</span>
+                          <span class="item-info fecha"></span>
+                        </div>
+                        <div class="details-list-item">
+                          <span class="item-title">Horario:</span>
+                          <span class="item-info horario"></span>
+                        </div>
+                      </dl>
+                </section>
+                <!-- <a href="/frontend/index.html#contacto"> -->
+                  <button class="detail-button-cta">¡Quiero participar!</button>
+                <!-- </a> -->
+
+            </aside>
+            </section>
+                
+            </div>
+        </template>
+        <template id="template-facilitator-card">
+            <figure class="facilitator-card">
+                <img class="facilitator-card-img" src="/frontend/public/assets/images/facilitadores/Img placeholder.png" alt="facilitador">
+                <figcaption class="facilitator-card-name">Alicia Jover</figcaption>
+            </figure>
+        </template>
+    </main>
+    <footer>
+        <section class="footer" id="container-contact"></section>
+    </footer>
+</body>
+</html>

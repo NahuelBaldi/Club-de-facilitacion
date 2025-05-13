@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --font-primary: 'Nunito', sans-serif;
+    --color-primary: #024287;
+    --color-primary-200:#0B7FFB;
+    --color-primary-400:#012C5A;
+    --color-secondary:#F6B432;
+    --color-secondary-200:#FBDA98;
+    --color-secondary-400:#BD8108;
+    --color-background: #FFFFFB;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+
+.eventos-container{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  gap: 2rem;
+}
+.eventos-title{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 5rem;
+}
+.eventos-subtitle{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 2rem;
+    padding-left: 5rem;
+}
+
+.evento-card{
+    width: 60%;   
+    height: 350px; /* Permite que el alto sea dinámico */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* Asegura que los elementos internos se estiren */
+    flex-direction: row;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 20px rgba(66, 65, 65, 0.452);
+    transition: all 0.3s ease-in-out;
+    gap: 1rem;
+}
+.evento-card-img{
+    width: 30%;
+    aspect-ratio: 4 / 3; /* Mantiene una proporción fija para la imagen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem 0 0 1rem;
+    object-fit: cover; /* Asegura que la imagen se recorte correctamente */
+}
+.evento-card-info {
+    flex: 1; /* El contenido ocupa el espacio restante */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    position: relative;
+  }
+  
+  .evento-card-title {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 800;
+    
+  }
+  .evento-card-type{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top:.5rem;
+  }
+  
+  .evento-card-description{
+    margin: 1rem 0;
+    text-align: left;
+    flex-grow: 1; 
+    text-wrap: wrap;
+  }
+  .evento-card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+  }
+ 
+
+  .evento-card-button{
+    min-width: 20%;
+    width: max-content;
+    height: max-content;
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    border: none;
+    border-radius: 32px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: .5rem 0;
+}
+.evento-card-button:hover{
+    background-color: var(--calor-primary-400);
+}
+
+.evento-card-modality-date{
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+}
+
+@media (max-width: 1024px) {
+  .evento-card {
+    width: 90%; /* Ajusta el ancho para pantallas pequeñas */
+    flex-direction: column; /* Cambia la dirección a columna */
+    height: auto; /* Reduce la altura mínima para pantallas pequeñas */
+  }
+
+  .evento-card-img {
+    width: 100%; /* La imagen ocupa todo el ancho */
+    height: auto; /* Ajusta el alto automáticamente */
+    max-height: 200px; /* Limita el alto máximo */
+    border-radius: 1rem 1rem 0 0; /* Ajusta los bordes redondeados */
+  }
+
+  .evento-card-info {
+    padding: 1rem;
+    min-height: auto; /* Permite que el contenido ajuste su altura */
+  }
+}

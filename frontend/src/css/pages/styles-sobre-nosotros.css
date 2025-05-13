@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --font-primary: 'Nunito', sans-serif;
+    --color-primary: #024287;
+    --color-primary-200:#0B7FFB;
+    --color-primary-400:#012C5A;
+    --color-secondary:#F6B432;
+    --color-secondary-200:#FBDA98;
+    --color-secondary-400:#BD8108;
+    --color-background: #FFFFFB;
+    --color-gris-100:#F7F7F9;
+    --color-gris-500: #595D69;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+.main-title{
+    font-size: 2rem;
+    text-align: center;
+    background-color: var(--color-primary-400);
+    color: var(--color-background);
+    width: 100%;
+    padding: 2rem 0;
+    font-weight: 900;
+}
+/* Estilos de las cards */
+.container-metodologia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 5rem;
+    margin:5rem 0;
+    gap: 5rem;
+    
+}
+.metodologia-card-reverse{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 3rem;
+    padding:  0 2rem;
+}
+.metodologia-card-text-reverse{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 1rem;
+    text-align: start;
+    min-height: 400px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px rgba(66, 65, 65, 0.452);
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+    padding: 2rem 1rem;
+    text-align: center;
+    overflow: hidden;
+    max-height: 400px;
+    max-width: 855px;
+    border-radius: 16px;
+
+}
+
+.metodologia-card-img-reverse{
+    object-fit: cover;
+    max-width:auto;
+    min-width: 400px;
+    min-height: 400px;
+    border-radius: 16px;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.metodologia-card-title-reverse{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.metodologia-card-paragraph-reverse{
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+    align-items: center;
+    gap: .5rem;
+}
+.comunidad-text{
+    padding: 0 3rem;
+}
+.link-facilitadores-button-cta{
+    background-color: var(--color-secondary);
+    color: var(--color-primary-200);
+    padding: 1rem 2rem;
+    border-radius: 32px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.link-facilitadores-button-cta:hover{
+    color: var(--color-background)
+}
+.propósito-text{
+    padding: 0 3rem;
+}
+.impacto-text{
+    padding: 0 3rem;
+}
+.impacto-text-span{
+    padding: 0 3rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.futuro-text{
+    padding: 0 3rem;
+}
+.futuro-text-span{
+    padding: 0 3rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+/*Estilos de las cards de estructura y valores*/
+
+.container-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 5rem 0;
+}
+.card-gobernanza{
+    width: 60%;
+    /* border: 1px solid var(--color-primary-400); */
+    box-shadow: 0px 0px 20px rgba(66, 65, 65, 0.452);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 16px;
+
+}
+.card-gobernanza{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-gobernanza{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+.title-card{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.text-gobernanza{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 3rem;
+}
+.list-gobernanza{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+    padding: 0 3rem;
+    font-size: 1.2rem;
+    /* padding-left: 3rem; */
+
+}
+.text-gobernanza-span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 0 3rem;
+    padding-bottom: 3rem;
+}
+.list-valores{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+    padding: 0 3rem;
+    font-size: 1.2rem;
+}
+.list-valores-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.item-title{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.item-info{
+    font-size: 1.2rem;
+    display: flex;
+    text-align: start;
+}
+.cta-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 0 3rem;
+    padding-bottom: 3rem;
+}
+.btn-contacto{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-button-cta{
+    background-color: var(--color-secondary);
+    color: var(--color-primary-200);
+    padding: 1rem 2rem;
+    border-radius: 32px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    /* margin: 0 auto; */
+    margin-bottom: 5rem;
+}
+.hero-button-cta:hover{
+    color: var(--color-background)
+}

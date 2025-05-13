@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --font-primary: 'Nunito', sans-serif;
+    --color-primary: #024287;
+    --color-primary-200:#0B7FFB;
+    --color-primary-400:#012C5A;
+    --color-secondary:#F6B432;
+    --color-secondary-200:#FBDA98;
+    --color-secondary-400:#BD8108;
+    --color-background: #FFFFFB;
+    --color-gris-100:#F7F7F9;
+    --color-gris-500: #595D69;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+.main-title{
+    font-size: 2rem;
+    text-align: center;
+    background-color: var(--color-primary-400);
+    color: var(--color-background);
+    width: 100%;
+    padding: 2rem 0;
+    font-weight: 900;
+}
+/* Grid de elementos de la galeria */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(6, 150px);
+    gap: 10px;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .item {
+    background-color: #333;
+    border-radius: 16px;
+
+  }
+  
+  .item1 {
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 2;
+  }
+  
+  .item2 {
+    grid-column: 7 / span 3;
+    grid-row: 1 / span 2;
+  }
+  
+  .item3 {
+    grid-column: 10 / span 4;
+    grid-row: 1 / span 2;
+  }
+  
+  .item4{
+    grid-column: 1 / span 3;
+    grid-row: 3 / span 4;
+  }
+  .item5{
+    grid-column: 4 / span 6;
+    grid-row: 3 / span 2;
+  }
+  .item6{
+    grid-column: 10 / span 4;
+    grid-row: 3 / span 4;
+  }
+  .item7{
+    grid-column: 4 / span 3;
+    grid-row: 5 / span 2;
+  }
+  .item8{
+    grid-column: 7 / span 3;
+    grid-row: 5 / span 2;
+  }
+  .title-galeria{
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+  }
+
+  /* Estilos de las card del blog */
+  .containter-blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: var(--color-background);
+  }
+  .blog-card{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+    margin: 2rem;
+  }
+  .blog-card-content{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card-image{
+    width: 30%;
+    height: 100%;
+    background-color: var(--color-gris-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+  }
+  .blog-card-info{
+    width: 70%;
+    min-height: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .blog-card-container-button{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    align-items: end;
+
+    /* font-size: 1.2rem; */
+    font-weight: 600;
+  }
+  .blog-card-link{
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    padding: 0.5rem 1rem;
+    border-radius: 32px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .blog-card-link:hover{
+    background-color: var(--calor-primary-400);
+
+  }
+  .blog-card-description{
+    flex-wrap: wrap;
+    color: var(--color-gris-500);
+  }
+  .blog-card-title{
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .blog-card-date{
+    color: var(--color-gris-500);
+  }
+  .blogs-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* estilos de la paginacion */
+  .paginacion-btn {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background: none;
+    color: #555;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .paginacion-btn.activo {
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .paginacion-btn:hover:not(.activo):not(:disabled) {
+    color: #007bff;
+  }
+  
+  .paginacion-btn.deshabilitado {
+    color: #aaa;
+    cursor: default;
+  }

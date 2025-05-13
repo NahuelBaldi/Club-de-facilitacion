@@ -4,58 +4,197 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club de facilitación</title>
+    <script src="./src/js/includes.js" defer></script>
+    <script src="/frontend/src/js/env.js" defer></script>
     <link rel="stylesheet" href="../frontend/src/css/styles-nav.css">
     <link rel="stylesheet" href="../frontend/src/css/styles-hero.css">
+    <link rel="stylesheet" href="../frontend/src/css/styles-metodologia.css">
+    <link rel="stylesheet" href="../frontend/src/css/styles-estadisticas.css">
+    <link rel="stylesheet" href="../frontend/src/css/styles-eventos.css">
+    <link rel="stylesheet" href="../frontend/src/css/styles-blog-cards.css">
+    <link rel="stylesheet" href="../frontend/src/css/styles-contactos.css">
+    <link rel="stylesheet" href="../frontend/src/css/styles-footer.css">
     <link rel="icon" href="./public/assets/icons/favicon.svg" type="image/svg+xml">
-    <script src="./src/js/scripts.js" defer></script>
+    <script src="./src/js/render-events.js" defer></script>
+    <script src="./src/js/render-blog-cards.js" defer></script>
+    <script src="./src/js/menu-desplegable.js" defer></script>
+    <script src="./src/js/ver-mas-events.js" defer></script>
+    
+    <script type="module" src="/frontend/src/js/email.js" defer></script>
+    
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="./public/assets/icons/logo.svg" alt="Logo del Club de facilitación">
-            </div>
-            <ul class="menu">
-                <li class="menu-item"><a class="menu-link" href="#home">Home</a></li>
-                <li class="menu-item"><a class="menu-link" href="#metodologia">Metodología</a></li>
-                <li class="menu-item"><a class="menu-link" href="#proximos-eventos">Próximos eventos</a></li>
-                <li class="menu-item" >
-                    <a class="menu-link" href="#magazine" aria-expanded="false" > <img class="arrow-icon"src="./public/assets/icons/desplegable.svg" >Magazine</a>
-                    <ul class="submenu" aria-hidden="true">
-                        <li class="submenu-item"><a href="#blog">Blog</a></li>
-                        <li class="submenu-item"><a href="#galeria">Galeria del Club</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item" >
-                    <a class="menu-link" href="#sobre-nosotros" aria-expanded="false"> <img class="arrow-icon"src="./public/assets/icons/desplegable.svg" >Sobre nosotros</a>
-                    <ul class="submenu" aria-hidden="true">
-                        <li class="submenu-item"><a href="#historia-del-club">Historia del Club</a></li>
-                        <li class="submenu-item"><a href="#estructura-y-valores">Estructura y valores</a></li>
-                        <li class="submenu-item"><a href="#directorio" >Directoria CFLSP</a></li>
-                    </ul>
-                </li>
-                
-                
-               
-                <li class="menu-item"><a class="menu-link" href="#contacto">Contacto</a></li>
-
-            </ul> 
-        </nav>
+    <header id="home"> 
+       <div id="container-nav"></div> 
+        
         <section class="hero">
             <div class="hero-content">
-                <h2 class="hero-eslogan">Impulsamos el conocimiento <br>ladrillo a ladrillo <br></h2>
+                <h1 class="hero-eslogan">Impulsamos el conocimiento <br>ladrillo a ladrillo <br></h2>
                 <p class="hero-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est officiis rem quia numquam ad quae, sequi corporis quidem provident at inventore odit cupiditate, possimus ab.</p>
-                <button class="hero-button-cta">¡CONTACTANOS!</button>
+                <a href="#contacto">
+                    <button class="hero-button-cta" >¡CONTACTANOS!</button>
+                </a>
             </div>
-
         </section>
     </header>             
     <main>
-       
-    </main>
+       <section class="metodologia">
+            <h2 class="metodologia-title">¿Qué es la metodologia LEGO® SERIOUS PLAY®?</h2>
 
+            <div class="metodologia-card">
+                <img  class="metodologia-img"src="../frontend/public/assets/images/Img placeholder.png" alt="imagen-referencial">
+                <div class="metodologia-info">
+                    <h3 class="metodologia-info-title">Una metodología que utiliza piezas de LEGO®</h3>
+                    <p class="metodologia-info-description">Esta metodología de desarrollo y transformación utiliza piezas de LEGO® para fomentar competencias clave que impulsan la innovación y mejoran el rendimiento de las personas tanto a nivel personal como profesional.</p>
+                    <a href="./src/pages/metodologia.html"><button class="metodologia-info-button">Saber más</button></a>
+                </div>
+            </div>
+            <div class="metodologia-card reverse">
+                <img class="metodologia-img" src="../frontend/public/assets/images/Img placeholder.png" alt="imagen-referencial">
+                <div class="metodologia-info">
+                    <!-- <h3 class="metodologia-info-title">Testimonios sobre LEGO® SERIOUS PLAY®</h3> -->
+                    <p class="metodologia-info-description">La metodología LEGO® SERIOUS PLAY® es más que una herramienta para la resolución de problemas y la innovación; es una experiencia transformadora que sincroniza mente y emociones, permite a las personas y equipos alcanzar niveles de comprensión y colaboración que de otro modo serían inalcanzables.</p>
+                    <a href="./src/pages/metodologia.html#testimonios"><button class="metodologia-info-button">Más testimonios</button></a>
+                </div>
+            </div>
+       </section>
+       <section class="estadisticas">
+            <h2 class="estadisticas-title">Nuestra historia, hecha por piezas y personas</h2>
+            <div class="estadisticas-container">
+                <div class="estadisticas-card">
+                    <span class="estaditicas-card-number">+850</span>
+                    <p class="estadisticas-card-description">Participantes que jugaron con seriedad</p>
+                </div>
+                <div class="estadisticas-card">
+                    <span class="estaditicas-card-number">+62</span>
+                    <p class="estadisticas-card-description">Facilitadores que son parte de la comunidad</p>
+                </div>
+                <div class="estadisticas-card">
+                    <span class="estaditicas-card-number">+30</span>
+                    <p class="estadisticas-card-description">Talleres solidarios que generan impacto positivo</p>
+                </div>
+                <div class="estadisticas-card">
+                    <span class="estaditicas-card-number">+3</span>
+                    <p class="estadisticas-card-description">Años de innovación con LEGO® SERIOUS PLAY®</p>
+                </div>
+            </div>
+       </section>
+       <section class="eventos" id="todos-los-eventos">
+            <h2 class="eventos-title">Conocé los proximos eventos del Club</h2>
+            <span class="eventos-subtitle">Calendario de actividades 2025 - Uso horario Madrid-España</span>
+                <div class="eventos-container">
+                </div>
+
+                <template id="evento-template">
+                    <div class="evento-card">
+                        <img class="evento-card-img"  alt="imagen-referencial">
+                        <div class="evento-card-info">
+                            <h3 class="evento-card-title"></h3>
+                            <span class="evento-card-type"></span>
+                            <p class="evento-card-description"></p>
+                            <div class="evento-card-footer">
+                                <p class="evento-card-modality-date">
+                                    <span class="evento-card-modality"></span>
+                                    <span class="evento-card-date"></span>
+                                </p>
+                                <button class="evento-card-button">Ver más</button>
+                            </div>
+                    </div>
+                </template>
+       </section>
+       <section class="magazine">
+            <h2 class="magazine-title">Magazine del Club</h2>
+            <div class="magazine-panel">
+                <span class="magazine-subtitle">Últimas novedades</span>
+                <a class="magazine-redirection-blog" href="/frontend/src/pages/magazine.html">Visitar blog</a>
+            </div>
+            <div class="magazine-card-container">
+            </div>
+            <span class="magazine-footer">Visita nuestra sección de blog para ver todas los artículos disponibles.</span>
+
+            <template id="magazine-card-template">
+                <div class="magazine-card">
+                    <img class="magazine-card-img" alt="imagen-referencial" src="./public/assets/images/blogs/cards/Blog1-card.png">
+                    <div class="magazine-card-info">
+                        <h3 class="magazine-card-title">¿Por qué es bueno utilizar LSP para procesos de selección</h3>
+                        <p class="magazine-card-author">Fanny López Amado</p>
+                    </div>
+                    <div class="magazine-container-button">
+                        <a class="magazine-card-button">Ver artículo completo</a>
+                    </div>
+                </div>
+            </template>
+       </section>
+       <section class="contactos" id="contacto">
+            <h2 class="contactos-title" id="title-contacto">Contáctanos</h2>
+            <p class="contactos-subtitle">Completa el formulario para ponerte en contacto con nosotros. Selecciona si eres un facilitador o formas parte de una ONG</p>
+            <div class="contactos-tabs">
+                <button class="tab-btn active" data-type="Facilitador">Facilitador</button>
+                <button class="tab-btn" data-type="ONG">ONG</button>
+            </div>
+            <div class="container-message-form">
+                <div class="form-message">
+                    <p class="form-paragraph">¿Te gustaria formar parte de nuestro club, asistir a las sessiones mensuales y facilitar en los talleres solidarios?</p>
+                    <p class="form-paragraph">Escribenos como Facilitador u ONG y te informaremos acerca de todos los detalles</p>
+                    <img class="form-logo-icon" src="/frontend/public/assets/icons/favicon.svg" alt="Club de facilitación">
+                </div>
+                <div class="container-form">
+                    <form id="contactForm" class="contact-form">
+                        <input type="hidden" id="contactType" name="contactType" value="Facilitador">
+                        <!-- Input que no se ve pero que no aporta informacion sobre la tab que esta activa -->
+                        <span id="mensaje-evento" class="evento-alerta" ></span>
+
+                        <input type="hidden" id="evento" name="evento" value="">
+                        
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required placeholder="Nombre">    
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" required placeholder="Correo electrónico">    
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" pattern="[0-9\s\-]+" title="Solo se permiten números, espacios y guiones" name="phone" placeholder="Número de teléfono">    
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" required placeholder="Me gustaría recibir información sobre"></textarea>    
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Acepto recibir correos electrónicos con actualizaciones y novedades del Club</label>
+                        </div>
+                        <div class="contacto-container-button">
+                            <button class="form-button-submit" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="form-footer">
+                <h2 class="form-footer-title">Contáctanos de forma directa a través de: </h2>
+                <div class="container-contact-buttons">
+                    
+                        <a class=" contact-button boton-mail icon-link" 
+                        href="https://mail.google.com/mail/?view=cm&to=nbaldiviezo17@gmail.com&su=Quiero%20contactarme%20con%20el%20Club"
+                        target="_blank"><img class="icon" src="./public/assets/icons/contact-icons/Gmail.svg" alt="Gmail icon"></a>
+                    
+                    
+                        <a class=" contact-button boton-linkedin icon-link" 
+                        href="https://www.linkedin.com/company/club-facilitaci%C3%B3n-lego%C2%AE-serious-play%C2%AE/"
+                        target="_blank"><img class="icon" src="./public/assets/icons/LinkedIn.png" alt="Linkedin icon"></a>
+                    
+                </div>
+            </div>
+            </div>
+           
+       </section>     
+    </main>
     <footer>
-       
+        <section class="footer" id="container-contact">
+        </section>
     </footer>
 
 </body>

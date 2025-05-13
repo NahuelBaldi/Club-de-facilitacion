@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/frontend/public/assets/icons/favicon.svg" type="image/svg+xml">
+    <title>Directorio de facilitadores CFLSP</title>
+    <script src="/frontend/src/js/includes.js" defer></script>
+    <script src="/frontend/src/js/menu-desplegable.js" defer></script>
+    <link rel="stylesheet" href="/frontend/src/css/styles-nav.css">
+    <link rel="stylesheet" href="/frontend/src/css/styles-footer.css">
+    <link rel="stylesheet" href="/frontend/src/css/pages/styles-facilitadores.css">
+    <script src="/frontend/src/js/render-facilitadores.js"></script>
+</head>
+<body>
+    <header>
+        <div id="container-nav"></div> 
+    </header>
+    <main>
+        <h1 class="main-title">Facilitarores</h1>
+        <div class="container-facilitadores" id="contenedor"></div>
+
+        <template id="template-agrupacion">
+            <section class="agrupacion">
+                <div class="titulo-agrupacion">
+                <img class="bandera" src="" alt="" width="32" height="20" />
+                <h2 class="nombre-agrupacion"></h2>
+                </div>
+                <div class="contenedor-facilitadores"></div>
+            </section>
+        </template>
+        <template id="template-facilitador">
+            <div class="card-facilitador">
+                <img class="imagen" src="" alt="" />
+                <div class="contenido">
+                    <h3 class="nombre"></h3>
+                    <p class="ocupacion"></p>
+                    <p class="descripcion"></p>
+                </div>
+                
+                <div class="acciones">
+                    <span class="text-acciones">¡CONTACTAME!</span>
+                    <div class="container-redes">
+                        <a class="btn-email" href="#" target="_blank"><img src="/frontend/public/assets/icons/contact-icons/Gmail.svg" alt=""></a>
+                        <a class="btn-linkedin" href="#" target="_blank"><img src="/frontend/public/assets/icons/contact-icons/linkedin.svg" alt=""></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </template>
+    </main>
+    <footer>
+        <section class="footer" id="container-contact"></section>
+    </footer>
+</body>
+</html>
